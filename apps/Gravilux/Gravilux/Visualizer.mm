@@ -18,7 +18,7 @@
 #include "FEpushPull.h"
 
 #include "fmod_errors.h"
-#include "fmodiphone.h"
+//#include "fmodiphone.h"
 
 #define AUTOMATIC_LEVEL .25f
 void ERRCHECK(FMOD_RESULT result)
@@ -36,12 +36,12 @@ Visualizer::Visualizer()
 	fmodsnd = 0;
 	FMOD::System_Create(&fmodsys);
 
-	FMOD_IPHONE_EXTRADRIVERDATA extradriverdata;
-	memset(&extradriverdata, 0, sizeof(FMOD_IPHONE_EXTRADRIVERDATA));
-	extradriverdata.sessionCategory = FMOD_IPHONE_SESSIONCATEGORY_MEDIAPLAYBACK;
-	extradriverdata.forceMixWithOthers = true;
-	ERRCHECK(fmodsys->init(1, FMOD_INIT_NORMAL, &extradriverdata));
-	ERRCHECK(FMOD_IPhone_MixWithOtherAudio(TRUE));
+//	FMOD_IPHONE_EXTRADRIVERDATA extradriverdata;
+//	memset(&extradriverdata, 0, sizeof(FMOD_IPHONE_EXTRADRIVERDATA));
+//	extradriverdata.sessionCategory = FMOD_IPHONE_SESSIONCATEGORY_MEDIAPLAYBACK;
+//	extradriverdata.forceMixWithOthers = true;
+//	ERRCHECK(fmodsys->init(1, FMOD_INIT_NORMAL, &extradriverdata));
+//	ERRCHECK(FMOD_IPhone_MixWithOtherAudio(TRUE));
 	
 	specL = (float*)malloc(SPECLEN*sizeof(float));
 	specR = (float*)malloc(SPECLEN*sizeof(float));
@@ -132,8 +132,8 @@ Visualizer::simulate(float dt)
 			ERRCHECK(fmodchn->getPaused( &paused ));
 		if ( !paused )
 		{
-			ERRCHECK(fmodchn->getSpectrum( specL, SPECLEN, 0, FMOD_DSP_FFT_WINDOW_BLACKMAN )); 
-			ERRCHECK(fmodchn->getSpectrum( specR, SPECLEN, 1, FMOD_DSP_FFT_WINDOW_BLACKMAN )); 
+//			ERRCHECK(fmodchn->getSpectrum( specL, SPECLEN, 0, FMOD_DSP_FFT_WINDOW_BLACKMAN ));
+//			ERRCHECK(fmodchn->getSpectrum( specR, SPECLEN, 1, FMOD_DSP_FFT_WINDOW_BLACKMAN ));
 		} else {
 			memset( specL, 0, SPECLEN*sizeof(float) );
 			memset( specR, 0, SPECLEN*sizeof(float) );
@@ -186,10 +186,8 @@ Visualizer::load(const char *path)
 {
 	fmodchn = 0;
 	fmodsnd = 0;
-	ERRCHECK(fmodsys->createSound(path,
-						 FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_LOOP_NORMAL,
-											  0, &fmodsnd));
-	ERRCHECK(fmodsys->playSound(FMOD_CHANNEL_FREE,fmodsnd,true,&fmodchn));
+//	ERRCHECK(fmodsys->createSound(path, FMOD_SOFTWARE | FMOD_2D | FMOD_CREATESTREAM | FMOD_LOOP_NORMAL, 0, &fmodsnd));
+//	ERRCHECK(fmodsys->playSound(FMOD_CHANNEL_FREE,fmodsnd,true,&fmodchn));
 	ERRCHECK(fmodchn->setLoopCount(repeat_?-1:0));
 	
 	loaded_ = (fmodchn && fmodsnd);
@@ -199,7 +197,7 @@ void
 Visualizer::start()
 {
 	if (fmodchn) {
-		ERRCHECK(FMOD_IPhone_MixWithOtherAudio(false));
+//		ERRCHECK(FMOD_IPhone_MixWithOtherAudio(false));
 		ERRCHECK(fmodchn->setPaused(false));
 		running_ = true;
 		for (vector<ForceEmitter*>::iterator it = emitters_.begin(); it != emitters_.end(); ++it) {
@@ -219,7 +217,7 @@ Visualizer::stop()
 	}
 	if (fmodchn) {
 		ERRCHECK(fmodchn->setPaused(true));
-		ERRCHECK(FMOD_IPhone_MixWithOtherAudio(true));
+//		ERRCHECK(FMOD_IPhone_MixWithOtherAudio(true));
 	}
 	gGravilux->params()->setColorSource(false);
 	syncUI();

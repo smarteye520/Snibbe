@@ -319,6 +319,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04018C2024DC4CEE001DB28A /* fmod_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_common.h; path = inc/fmod_common.h; sourceTree = "<group>"; };
+		04018C2124DC4CEF001DB28A /* fmod_dsp_effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_dsp_effects.h; path = inc/fmod_dsp_effects.h; sourceTree = "<group>"; };
+		04018C2224DC4CEF001DB28A /* fmod_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_ios.h; path = inc/fmod_ios.h; sourceTree = "<group>"; };
 		0BD84CE6148A9520006CB2F8 /* SSS-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SSS-logo.png"; sourceTree = "<group>"; };
 		3BC0B82A1477414100168681 /* RotatingColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingColorButton.h; sourceTree = "<group>"; };
 		3BC0B82B1477414100168681 /* RotatingColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingColorButton.m; sourceTree = "<group>"; };
@@ -442,9 +445,7 @@
 		8463F9E51458CA9A00ABC5DE /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_codec.h; path = ../../frameworks/fmod/inc/fmod_codec.h; sourceTree = SOURCE_ROOT; };
 		8463F9E61458CA9A00ABC5DE /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_dsp.h; path = ../../frameworks/fmod/inc/fmod_dsp.h; sourceTree = SOURCE_ROOT; };
 		8463F9E71458CA9A00ABC5DE /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_errors.h; path = ../../frameworks/fmod/inc/fmod_errors.h; sourceTree = SOURCE_ROOT; };
-		8463F9E81458CA9A00ABC5DE /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_memoryinfo.h; path = ../../frameworks/fmod/inc/fmod_memoryinfo.h; sourceTree = SOURCE_ROOT; };
 		8463F9E91458CA9A00ABC5DE /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_output.h; path = ../../frameworks/fmod/inc/fmod_output.h; sourceTree = SOURCE_ROOT; };
-		8463F9EA1458CA9A00ABC5DE /* fmodiphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmodiphone.h; path = ../../frameworks/fmod/inc/fmodiphone.h; sourceTree = SOURCE_ROOT; };
 		8463F9F01458D16D00ABC5DE /* libfmodexL_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodexL_iphoneos.a; path = ../../frameworks/fmod/lib/libfmodexL_iphoneos.a; sourceTree = SOURCE_ROOT; };
 		846A760514182B080010C630 /* Gravilux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gravilux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846A760914182B080010C630 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -860,14 +861,15 @@
 		8463F9E11458CA9A00ABC5DE /* fmod */ = {
 			isa = PBXGroup;
 			children = (
+				04018C2024DC4CEE001DB28A /* fmod_common.h */,
+				04018C2124DC4CEF001DB28A /* fmod_dsp_effects.h */,
+				04018C2224DC4CEF001DB28A /* fmod_ios.h */,
 				8463F9E31458CA9A00ABC5DE /* fmod.h */,
 				8463F9E41458CA9A00ABC5DE /* fmod.hpp */,
 				8463F9E51458CA9A00ABC5DE /* fmod_codec.h */,
 				8463F9E61458CA9A00ABC5DE /* fmod_dsp.h */,
 				8463F9E71458CA9A00ABC5DE /* fmod_errors.h */,
-				8463F9E81458CA9A00ABC5DE /* fmod_memoryinfo.h */,
 				8463F9E91458CA9A00ABC5DE /* fmod_output.h */,
-				8463F9EA1458CA9A00ABC5DE /* fmodiphone.h */,
 			);
 			name = fmod;
 			path = ../../frameworks/fmod;
