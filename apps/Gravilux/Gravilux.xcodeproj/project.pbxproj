@@ -318,10 +318,56 @@
 		84FB7D68143E569A007A23C6 /* ColorPickerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84FB7D67143E569A007A23C6 /* ColorPickerView.mm */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		04018C2A24DC4F04001DB28A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6F1EDD061368E3D0006D8956;
+			remoteInfo = SnibbeLib;
+		};
+		04018C2C24DC4F04001DB28A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6F87AAE51550BAD400D35B88;
+			remoteInfo = SnibbeLibAudio;
+		};
+		04018C2E24DC4F04001DB28A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6FF8B95C1551B9FC003136A8;
+			remoteInfo = SnibbeLibGoogle;
+		};
+		04018C3024DC4FA1001DB28A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F1EDD051368E3D0006D8956;
+			remoteInfo = SnibbeLib;
+		};
+		04018C3224DC4FA1001DB28A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F87AAE41550BAD400D35B88;
+			remoteInfo = SnibbeLibAudio;
+		};
+		04018C3424DC4FA1001DB28A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6FF8B94E1551B9FC003136A8;
+			remoteInfo = SnibbeLibGoogle;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		04018C2024DC4CEE001DB28A /* fmod_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_common.h; path = inc/fmod_common.h; sourceTree = "<group>"; };
 		04018C2124DC4CEF001DB28A /* fmod_dsp_effects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_dsp_effects.h; path = inc/fmod_dsp_effects.h; sourceTree = "<group>"; };
 		04018C2224DC4CEF001DB28A /* fmod_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmod_ios.h; path = inc/fmod_ios.h; sourceTree = "<group>"; };
+		04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnibbeLib.xcodeproj; path = ../../frameworks/SnibbeLib/SnibbeLib.xcodeproj; sourceTree = "<group>"; };
 		0BD84CE6148A9520006CB2F8 /* SSS-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SSS-logo.png"; sourceTree = "<group>"; };
 		3BC0B82A1477414100168681 /* RotatingColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingColorButton.h; sourceTree = "<group>"; };
 		3BC0B82B1477414100168681 /* RotatingColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingColorButton.m; sourceTree = "<group>"; };
@@ -721,6 +767,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04018C2424DC4F04001DB28A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04018C2B24DC4F04001DB28A /* libSnibbe.a */,
+				04018C2D24DC4F04001DB28A /* libSnibbeLibAudio.a */,
+				04018C2F24DC4F04001DB28A /* libSnibbeLibGoogle.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		8403D61B1472EA1600928481 /* SBJson */ = {
 			isa = PBXGroup;
 			children = (
@@ -878,6 +934,7 @@
 		846A75FA14182B080010C630 = {
 			isa = PBXGroup;
 			children = (
+				04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */,
 				849752601566ED9C0031D25B /* CoreMedia.framework */,
 				846A761114182B080010C630 /* Gravilux */,
 				8463F9CF1458C94E00ABC5DE /* 3rd Party */,
@@ -1357,6 +1414,9 @@
 			buildRules = (
 			);
 			dependencies = (
+				04018C3124DC4FA1001DB28A /* PBXTargetDependency */,
+				04018C3324DC4FA1001DB28A /* PBXTargetDependency */,
+				04018C3524DC4FA1001DB28A /* PBXTargetDependency */,
 			);
 			name = Gravilux;
 			productName = Gravilux;
@@ -1384,12 +1444,42 @@
 			mainGroup = 846A75FA14182B080010C630;
 			productRefGroup = 846A760614182B080010C630 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04018C2424DC4F04001DB28A /* Products */;
+					ProjectRef = 04018C2324DC4F04001DB28A /* SnibbeLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				846A760414182B080010C630 /* Gravilux */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04018C2B24DC4F04001DB28A /* libSnibbe.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSnibbe.a;
+			remoteRef = 04018C2A24DC4F04001DB28A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04018C2D24DC4F04001DB28A /* libSnibbeLibAudio.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSnibbeLibAudio.a;
+			remoteRef = 04018C2C24DC4F04001DB28A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		04018C2F24DC4F04001DB28A /* libSnibbeLibGoogle.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSnibbeLibGoogle.a;
+			remoteRef = 04018C2E24DC4F04001DB28A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		846A760314182B080010C630 /* Resources */ = {
@@ -1750,6 +1840,24 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		04018C3124DC4FA1001DB28A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnibbeLib;
+			targetProxy = 04018C3024DC4FA1001DB28A /* PBXContainerItemProxy */;
+		};
+		04018C3324DC4FA1001DB28A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnibbeLibAudio;
+			targetProxy = 04018C3224DC4FA1001DB28A /* PBXContainerItemProxy */;
+		};
+		04018C3524DC4FA1001DB28A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SnibbeLibGoogle;
+			targetProxy = 04018C3424DC4FA1001DB28A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		846A761414182B080010C630 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -1831,6 +1939,7 @@
 				OTHER_LDFLAGS = (
 					"-w",
 					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_NAME = Gravilux;
 				WRAPPER_EXTENSION = app;
@@ -1860,6 +1969,7 @@
 				OTHER_LDFLAGS = (
 					"-w",
 					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_NAME = Gravilux;
 				WRAPPER_EXTENSION = app;
@@ -1909,6 +2019,7 @@
 				OTHER_LDFLAGS = (
 					"-w",
 					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_NAME = Gravilux;
 				WRAPPER_EXTENSION = app;
@@ -1958,6 +2069,7 @@
 				OTHER_LDFLAGS = (
 					"-w",
 					"-ObjC",
+					"-all_load",
 				);
 				PRODUCT_NAME = Gravilux;
 				WRAPPER_EXTENSION = app;
