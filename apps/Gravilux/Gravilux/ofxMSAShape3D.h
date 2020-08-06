@@ -28,7 +28,7 @@
  * OF THE POSSIBILITY OF SUCH DAMAGE. 
  *
  * ***********************************************************************/ 
-
+#include <OpenGLES/ES1/gl.h>
 #pragma once
 
 #define DEFAULT_RESERVE_AMOUNT		5000
