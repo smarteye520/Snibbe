@@ -1922,6 +1922,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../frameworks/SnibbeLib\"/**";
@@ -1952,6 +1953,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../frameworks/SnibbeLib\"/**";
@@ -2003,6 +2005,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../frameworks/SnibbeLib\"/**";
@@ -2053,6 +2056,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
 				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/../../frameworks/SnibbeLib\"/**";
