@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Set Name</key>
+	<string>Default Shapes</string>
+	<key>Shapes</key>
+	<array>
+		<dict>
+			<key>inner points</key>
+			<array/>
+			<key>outer points</key>
+			<array/>
+			<key>type</key>
+			<string>poly</string>
+			<key>name</key>
+			<string>line poly</string>
+			<key>icon</key>
+			<string>icon_default_line</string>
+			<key>id</key>
+			<integer>1</integer>
+			<key>shears</key>
+			<true/>
+			<key>constrain shear x</key>
+			<false/>
+			<key>line points</key>
+			<array>
+				<string>{-1.0, .25}</string>
+				<string>{1.0, .25}</string>
+				<string>{1.0, -.25}</string>
+				<string>{-1.0, -.25}</string>
+			</array>
+			<key>strip indices</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>poly</string>
+			<key>name</key>
+			<string>square poly</string>
+			<key>icon</key>
+			<string>icon_default_square</string>
+			<key>id</key>
+			<integer>2</integer>
+			<key>shears</key>
+			<true/>
+			<key>constrain shear x</key>
+			<false/>
+			<key>line points</key>
+			<array>
+				<string>{-1.0, 1.0}</string>
+				<string>{1.0, 1.0}</string>
+				<string>{1.0, -1.0}</string>
+				<string>{-1.0, -1.0}</string>
+			</array>
+			<key>strip indices</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>3</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>poly</string>
+			<key>name</key>
+			<string>tri poly</string>
+			<key>icon</key>
+			<string>icon_default_triangle</string>
+			<key>id</key>
+			<integer>3</integer>
+			<key>shears</key>
+			<true/>
+			<key>constrain shear x</key>
+			<false/>
+			<key>line points</key>
+			<array>
+				<string>{-1.0, -.866}</string>
+				<string>{0.0, .866}</string>
+				<string>{1.0, -.866}</string>
+			</array>
+			<key>strip indices</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>poly</string>
+			<key>name</key>
+			<string>circle poly</string>
+			<key>icon</key>
+			<string>icon_default_10side</string>
+			<key>id</key>
+			<integer>4</integer>
+			<key>shears</key>
+			<true/>
+			<key>constrain shear x</key>
+			<false/>
+			<key>solid draw</key>
+			<string>fan</string>
+			<key>line points</key>
+			<array>
+				<string>{0.0, 1.0}</string>
+				<string>{.587, .809}</string>
+				<string>{.951, .309}</string>
+				<string>{.951, -.309}</string>
+				<string>{.587, -.809}</string>
+				<string>{0.0, -1.0}</string>
+				<string>{-.587, -.809}</string>
+				<string>{-.951, -.309}</string>
+				<string>{-.951, .309}</string>
+				<string>{-.587, .809}</string>
+			</array>
+		</dict>
+		<dict>
+			<key>type</key>
+			<string>poly</string>
+			<key>name</key>
+			<string>chevron poly</string>
+			<key>icon</key>
+			<string>icon_default_chevron</string>
+			<key>id</key>
+			<integer>5</integer>
+			<key>shears</key>
+			<true/>
+			<key>constrain shear x</key>
+			<false/>
+			<key>line points</key>
+			<array>
+				<string>{-1.0, -1.0}</string>
+				<string>{-.428, -1.0}</string>
+				<string>{0.0, .07}</string>
+				<string>{.428, -1.0}</string>
+				<string>{1.0, -1.0}</string>
+				<string>{0.0, 1.0}</string>
+			</array>
+			<key>strip indices</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>3</integer>
+				<integer>5</integer>
+				<integer>4</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,8 @@
+SnibbeLib
+
+Integration Notes
+---------------------------
+
+
+Required binaries in projects using SnibbeLib:
+- libxml2

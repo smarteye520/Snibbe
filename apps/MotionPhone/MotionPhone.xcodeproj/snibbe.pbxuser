@@ -1,0 +1,823 @@
+// !$*UTF8*$!
+{
+	0B8464311308BE8E009915FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF132A0128DF6BA00C57E87 /* mbrush.mm */;
+		name = "mbrush.mm: 178";
+		rLen = 0;
+		rLoc = 4064;
+		rType = 0;
+		vrLen = 1749;
+		vrLoc = 3312;
+	};
+	0B8464321308BE8E009915FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FD0DC6FC130079059D /* EAGLView.m */;
+		name = "EAGLView.m: 32";
+		rLen = 0;
+		rLoc = 605;
+		rType = 0;
+		vrLen = 1148;
+		vrLoc = 290;
+	};
+	0B84643F1308BF61009915FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MotionPhoneAppDelegate.mm */;
+		name = "MotionPhoneAppDelegate.mm: 19";
+		rLen = 0;
+		rLoc = 424;
+		rType = 0;
+		vrLen = 1073;
+		vrLoc = 146;
+	};
+	0B8464401308BF61009915FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MotionPhoneAppDelegate.h */;
+		name = "MotionPhoneAppDelegate.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 499;
+		vrLoc = 0;
+	};
+	0B8464441308BF61009915FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0B8464451308BF61009915FC /* ui.C */;
+		name = "ui.C: 1595";
+		rLen = 36;
+		rLoc = 50023;
+		rType = 0;
+		vrLen = 1807;
+		vrLoc = 50181;
+	};
+	0B8464451308BF61009915FC /* ui.C */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = ui.C;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/mphone/ui.C";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {609, 28340}}";
+			sepNavSelRange = "{50023, 36}";
+			sepNavVisRange = "{50181, 1807}";
+			sepNavWindowFrame = "{{0, 156}, {668, 872}}";
+		};
+	};
+	0B8464461308BF61009915FC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF132A2128DF6BA00C57E87 /* defs.h */;
+		name = "defs.h: 73";
+		rLen = 0;
+		rLoc = 1440;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 153;
+	};
+	0B99234C1303425800404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 13";
+		rLen = 0;
+		rLoc = 197;
+		rType = 0;
+		vrLen = 361;
+		vrLoc = 0;
+	};
+	0B99234D1303425800404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0B99234E1303425800404810 /* gl.h */;
+		name = "gl.h: 618";
+		rLen = 122;
+		rLoc = 33089;
+		rType = 0;
+		vrLen = 5645;
+		vrLoc = 29684;
+	};
+	0B99234E1303425800404810 /* gl.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = gl.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/ES2/gl.h;
+		sourceTree = "<absolute>";
+	};
+	0B9923521303425800404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27910084DCA00A42282 /* Shader.fsh */;
+		name = "Shader.fsh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 218;
+		vrLoc = 0;
+	};
+	0B9923531303425800404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 2514C27A10084DCA00A42282 /* Shader.vsh */;
+		name = "Shader.vsh: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 352;
+		vrLoc = 0;
+	};
+	0B9923541303425800404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28FD14FC0DC6FC130079059D /* EAGLView.h */;
+		name = "EAGLView.h: 9";
+		rLen = 23;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 990;
+		vrLoc = 0;
+	};
+	0B9923A21303524800404810 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MotionPhone-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/snibbe/Documents/files/Scott Snibbe/pro/apps/MotionPhone/MotionPhone-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	0B9923A41303524800404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0B9923A51303524800404810 /* mphone.C */;
+		name = "mphone.C: 17";
+		rLen = 1;
+		rLoc = 207;
+		rType = 0;
+		vrLen = 757;
+		vrLoc = 0;
+	};
+	0B9923A51303524800404810 /* mphone.C */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = mphone.C;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/mphone/mphone.C";
+		sourceTree = "<absolute>";
+	};
+	0B9923A61303524800404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0B9923A71303524800404810 /* test.c */;
+		name = "test.c: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 316;
+		vrLoc = 0;
+	};
+	0B9923A71303524800404810 /* test.c */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.c;
+		name = test.c;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/mphone/test.c";
+		sourceTree = "<absolute>";
+	};
+	0B9923A81303524800404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0B9923A91303524800404810 /* mcanvas.C */;
+		name = "mcanvas.C: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 0;
+	};
+	0B9923A91303524800404810 /* mcanvas.C */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = mcanvas.C;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/mphone/mcanvas.C";
+		sourceTree = "<absolute>";
+	};
+	0B992424130355A000404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF133AF128E21CE00C57E87 /* ofxMSAShape3D.h */;
+		name = "ofxMSAShape3D.h: 79";
+		rLen = 0;
+		rLoc = 3204;
+		rType = 0;
+		vrLen = 1736;
+		vrLoc = 1172;
+	};
+	0B9924401303563C00404810 /* objc_exception_throw */ = {
+		isa = PBXSymbolicBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 1;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		hitCount = 0;
+		ignoreCount = 0;
+		location = libobjc.A.dylib;
+		modificationTime = 318994546.7567469;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+		symbolName = objc_exception_throw;
+	};
+	0B9925121303681F00404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 32CA4F630368D1EE00C91783 /* MotionPhone_Prefix.pch */;
+		name = "MotionPhone_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 320;
+		vrLoc = 0;
+	};
+	0B9925131303681F00404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF132A1128DF6BA00C57E87 /* mbrush.h */;
+		name = "mbrush.h: 13";
+		rLen = 10;
+		rLoc = 129;
+		rType = 0;
+		vrLen = 1113;
+		vrLoc = 0;
+	};
+	0B99251B1303686900404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF1329C128DF6BA00C57E87 /* mframe.mm */;
+		name = "mframe.mm: 9";
+		rLen = 0;
+		rLoc = 98;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 887;
+	};
+	0B992525130368A700404810 /* mbrush.mm:293 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BF132A0128DF6BA00C57E87 /* mbrush.mm */;
+		functionName = "MBrush::drawGL(ofxMSAShape3D *shape3D)";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 293;
+		location = MotionPhone;
+		modificationTime = 318994547.415859;
+		originalNumberOfMultipleMatches = 1;
+		state = 2;
+	};
+	0B99254B13036C8F00404810 /* mcanvas.mm:311 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 0BF1329E128DF6BA00C57E87 /* mcanvas.mm */;
+		functionName = "MCanvas::draw_onto_cframe( float *p1, float *p2, float w, //MColor color, unsigned long t, int *b_index)";
+		hitCount = 1;
+		ignoreCount = 0;
+		lineNumber = 311;
+		location = MotionPhone;
+		modificationTime = 318994548.549587;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	0B99257313036DA700404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF1329D128DF6BA00C57E87 /* mframe.h */;
+		name = "mframe.h: 36";
+		rLen = 9;
+		rLoc = 893;
+		rType = 0;
+		vrLen = 964;
+		vrLoc = 0;
+	};
+	0B99257E13036EAF00404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF1329F128DF6BA00C57E87 /* mcanvas.h */;
+		name = "mcanvas.h: 62";
+		rLen = 0;
+		rLoc = 1783;
+		rType = 0;
+		vrLen = 1101;
+		vrLoc = 2892;
+	};
+	0B99258013036EAF00404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF132A2128DF6BA00C57E87 /* defs.h */;
+		name = "defs.h: 70";
+		rLen = 0;
+		rLoc = 1425;
+		rType = 0;
+		vrLen = 748;
+		vrLoc = 0;
+	};
+	0B9925A81303779400404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0B9925A91303779400404810 /* mbrush.C */;
+		name = "mbrush.C: 177";
+		rLen = 0;
+		rLoc = 4026;
+		rType = 0;
+		vrLen = 1630;
+		vrLoc = 3227;
+	};
+	0B9925A91303779400404810 /* mbrush.C */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = mbrush.C;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/mphone/mbrush.C";
+		sourceTree = "<absolute>";
+	};
+	0B9925C81303789C00404810 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF1329E128DF6BA00C57E87 /* mcanvas.mm */;
+		name = "mcanvas.mm: 313";
+		rLen = 0;
+		rLoc = 6056;
+		rType = 0;
+		vrLen = 1208;
+		vrLoc = 5549;
+	};
+	0BC03E12130DA2AC0097B609 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5711D54ECE0027AA9F /* MotionPhoneViewController.mm */;
+		name = "MotionPhoneViewController.mm: 272";
+		rLen = 1237;
+		rLoc = 6868;
+		rType = 0;
+		vrLen = 1157;
+		vrLoc = 6621;
+	};
+	0BC03E13130DA2AC0097B609 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5611D54ECE0027AA9F /* MotionPhoneViewController.h */;
+		name = "MotionPhoneViewController.h: 32";
+		rLen = 34;
+		rLoc = 615;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 0;
+	};
+	0BC03E14130DA2AC0097B609 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28EC4C5611D54ECE0027AA9F /* MotionPhoneViewController.h */;
+		name = "MotionPhoneViewController.h: 32";
+		rLen = 35;
+		rLoc = 614;
+		rType = 0;
+		vrLen = 832;
+		vrLoc = 0;
+	};
+	0BC03E17130DA2AC0097B609 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BC03E18130DA2AC0097B609 /* ui.C */;
+		name = "ui.C: 1595";
+		rLen = 36;
+		rLoc = 50023;
+		rType = 0;
+		vrLen = 1807;
+		vrLoc = 50181;
+	};
+	0BC03E18130DA2AC0097B609 /* ui.C */ = {
+		isa = PBXFileReference;
+		name = ui.C;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/mphone/ui.C";
+		sourceTree = "<absolute>";
+	};
+	0BC03E19130DA2AC0097B609 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF132A2128DF6BA00C57E87 /* defs.h */;
+		name = "defs.h: 73";
+		rLen = 0;
+		rLoc = 1440;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 153;
+	};
+	0BF13216128DF38100C57E87 /* Motion Phone */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Motion Phone";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	0BF13230128DF3BB00C57E87 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	0BF13231128DF3BB00C57E87 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0BF1329C128DF6BA00C57E87 /* mframe.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 1963}}";
+			sepNavSelRange = "{98, 0}";
+			sepNavVisRange = "{887, 1074}";
+		};
+	};
+	0BF1329D128DF6BA00C57E87 /* mframe.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 593}}";
+			sepNavSelRange = "{893, 9}";
+			sepNavVisRange = "{0, 964}";
+		};
+	};
+	0BF1329E128DF6BA00C57E87 /* mcanvas.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {663, 11011}}";
+			sepNavSelRange = "{10712, 0}";
+			sepNavVisRange = "{10237, 609}";
+			sepNavWindowFrame = "{{61, 73}, {805, 908}}";
+		};
+	};
+	0BF1329F128DF6BA00C57E87 /* mcanvas.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 1911}}";
+			sepNavSelRange = "{1783, 0}";
+			sepNavVisRange = "{2892, 1101}";
+		};
+	};
+	0BF132A0128DF6BA00C57E87 /* mbrush.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 5018}}";
+			sepNavSelRange = "{4064, 0}";
+			sepNavVisRange = "{3312, 1749}";
+			sepNavWindowFrame = "{{15, 115}, {805, 908}}";
+		};
+	};
+	0BF132A1128DF6BA00C57E87 /* mbrush.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 637}}";
+			sepNavSelRange = "{129, 10}";
+			sepNavVisRange = "{0, 1113}";
+		};
+	};
+	0BF132A2128DF6BA00C57E87 /* defs.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {746, 949}}";
+			sepNavSelRange = "{1440, 0}";
+			sepNavVisRange = "{153, 1285}";
+		};
+	};
+	0BF1332C128E194F00C57E87 /* defs.H */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = defs.H;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/apps/MotionPhone/Classes/defs.H";
+		sourceTree = "<absolute>";
+	};
+	0BF1332E128E196E00C57E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "This is the location of the previous definition";
+		fRef = 0BF1332C128E194F00C57E87 /* defs.H */;
+		rLen = 1;
+		rLoc = 75601;
+		rType = 1;
+	};
+	0BF13360128E1F1500C57E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF13361128E1F1500C57E87 /* ui.C */;
+		name = "ui.C: 18";
+		rLen = 12;
+		rLoc = 215;
+		rType = 0;
+		vrLen = 1067;
+		vrLoc = 0;
+	};
+	0BF13361128E1F1500C57E87 /* ui.C */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = ui.C;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/mphone/ui.C";
+		sourceTree = "<absolute>";
+	};
+	0BF13362128E1F1500C57E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF13363128E1F1500C57E87 /* mframe.H */;
+		rLen = 1;
+		rLoc = 18;
+		rType = 1;
+	};
+	0BF13363128E1F1500C57E87 /* mframe.H */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = mframe.H;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/apps/MotionPhone/Classes/mframe.H";
+		sourceTree = "<absolute>";
+	};
+	0BF13364128E1F1500C57E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF13365128E1F1500C57E87 /* UITextInput.h */;
+		name = "UITextInput.h: 165";
+		rLen = 55;
+		rLoc = 7177;
+		rType = 0;
+		vrLen = 1581;
+		vrLoc = 6183;
+	};
+	0BF13365128E1F1500C57E87 /* UITextInput.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = UITextInput.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UITextInput.h;
+		sourceTree = "<absolute>";
+	};
+	0BF1336A128E1F1500C57E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Image.h: No such file or directory";
+		fRef = 0BF1336B128E1F1500C57E87 /* defs.H */;
+		rLen = 1;
+		rLoc = 13;
+		rType = 1;
+	};
+	0BF1336B128E1F1500C57E87 /* defs.H */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.h;
+		name = defs.H;
+		path = "/Users/snibbe/Documents/files/Scott Snibbe/pro/apps/MotionPhone/Classes/defs.H";
+		sourceTree = "<absolute>";
+	};
+	0BF1336E128E1F1500C57E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF1336F128E1F1500C57E87 /* stdlib.h */;
+		name = "stdlib.h: 121";
+		rLen = 8;
+		rLoc = 4158;
+		rType = 0;
+		vrLen = 984;
+		vrLoc = 3823;
+	};
+	0BF1336F128E1F1500C57E87 /* stdlib.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = stdlib.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/stdlib.h;
+		sourceTree = "<absolute>";
+	};
+	0BF13370128E1F1500C57E87 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0BF13371128E1F1500C57E87 /* math.h */;
+		name = "math.h: 323";
+		rLen = 31;
+		rLoc = 14129;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 13254;
+	};
+	0BF13371128E1F1500C57E87 /* math.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = math.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/usr/include/architecture/arm/math.h;
+		sourceTree = "<absolute>";
+	};
+	0BF133AF128E21CE00C57E87 /* ofxMSAShape3D.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {791, 4069}}";
+			sepNavSelRange = "{3204, 0}";
+			sepNavVisRange = "{2811, 566}";
+		};
+	};
+	1D3623240D0F684500981E51 /* MotionPhoneAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 636}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 499}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MotionPhoneAppDelegate.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 741}}";
+			sepNavSelRange = "{424, 0}";
+			sepNavVisRange = "{146, 1073}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Motion Phone */ = {
+		activeExec = 0;
+		executables = (
+			0BF13216128DF38100C57E87 /* Motion Phone */,
+		);
+	};
+	2514C27910084DCA00A42282 /* Shader.fsh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 622}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 218}";
+		};
+	};
+	2514C27A10084DCA00A42282 /* Shader.vsh */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 622}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 352}";
+		};
+	};
+	28EC4C5611D54ECE0027AA9F /* MotionPhoneViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 631}}";
+			sepNavSelRange = "{614, 35}";
+			sepNavVisRange = "{0, 832}";
+		};
+	};
+	28EC4C5711D54ECE0027AA9F /* MotionPhoneViewController.mm */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {831, 6344}}";
+			sepNavSelRange = "{6868, 1237}";
+			sepNavVisRange = "{6621, 1157}";
+		};
+	};
+	28FD14FC0DC6FC130079059D /* EAGLView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 618}}";
+			sepNavSelRange = "{136, 23}";
+			sepNavVisRange = "{0, 990}";
+		};
+	};
+	28FD14FD0DC6FC130079059D /* EAGLView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {782, 2119}}";
+			sepNavSelRange = "{605, 0}";
+			sepNavVisRange = "{290, 1148}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0BF13216128DF38100C57E87 /* Motion Phone */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Motion Phone */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Motion Phone */,
+		);
+		breakpoints = (
+			0B9924401303563C00404810 /* objc_exception_throw */,
+			0B992525130368A700404810 /* mbrush.mm:293 */,
+			0B99254B13036C8F00404810 /* mcanvas.mm:311 */,
+		);
+		codeSenseManager = 0BF13231128DF3BB00C57E87 /* Code sense */;
+		executables = (
+			0BF13216128DF38100C57E87 /* Motion Phone */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA1AED706398EBD00589147" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					198,
+					20,
+					99,
+					99,
+					29,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					516,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					345,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 319660592;
+			PBXWorkspaceStateSaveDate = 319660592;
+		};
+		perUserProjectItems = {
+			0B8464311308BE8E009915FC /* PBXTextBookmark */ = 0B8464311308BE8E009915FC /* PBXTextBookmark */;
+			0B8464321308BE8E009915FC /* PBXTextBookmark */ = 0B8464321308BE8E009915FC /* PBXTextBookmark */;
+			0B84643F1308BF61009915FC /* PBXTextBookmark */ = 0B84643F1308BF61009915FC /* PBXTextBookmark */;
+			0B8464401308BF61009915FC /* PBXTextBookmark */ = 0B8464401308BF61009915FC /* PBXTextBookmark */;
+			0B8464441308BF61009915FC /* PBXTextBookmark */ = 0B8464441308BF61009915FC /* PBXTextBookmark */;
+			0B8464461308BF61009915FC /* PBXTextBookmark */ = 0B8464461308BF61009915FC /* PBXTextBookmark */;
+			0B99234C1303425800404810 /* PBXTextBookmark */ = 0B99234C1303425800404810 /* PBXTextBookmark */;
+			0B99234D1303425800404810 /* PBXTextBookmark */ = 0B99234D1303425800404810 /* PBXTextBookmark */;
+			0B9923521303425800404810 /* PBXTextBookmark */ = 0B9923521303425800404810 /* PBXTextBookmark */;
+			0B9923531303425800404810 /* PBXTextBookmark */ = 0B9923531303425800404810 /* PBXTextBookmark */;
+			0B9923541303425800404810 /* PBXTextBookmark */ = 0B9923541303425800404810 /* PBXTextBookmark */;
+			0B9923A21303524800404810 /* PlistBookmark */ = 0B9923A21303524800404810 /* PlistBookmark */;
+			0B9923A41303524800404810 /* PBXTextBookmark */ = 0B9923A41303524800404810 /* PBXTextBookmark */;
+			0B9923A61303524800404810 /* PBXTextBookmark */ = 0B9923A61303524800404810 /* PBXTextBookmark */;
+			0B9923A81303524800404810 /* PBXTextBookmark */ = 0B9923A81303524800404810 /* PBXTextBookmark */;
+			0B992424130355A000404810 /* PBXTextBookmark */ = 0B992424130355A000404810 /* PBXTextBookmark */;
+			0B9925121303681F00404810 /* PBXTextBookmark */ = 0B9925121303681F00404810 /* PBXTextBookmark */;
+			0B9925131303681F00404810 /* PBXTextBookmark */ = 0B9925131303681F00404810 /* PBXTextBookmark */;
+			0B99251B1303686900404810 /* PBXTextBookmark */ = 0B99251B1303686900404810 /* PBXTextBookmark */;
+			0B99257313036DA700404810 /* PBXTextBookmark */ = 0B99257313036DA700404810 /* PBXTextBookmark */;
+			0B99257E13036EAF00404810 /* PBXTextBookmark */ = 0B99257E13036EAF00404810 /* PBXTextBookmark */;
+			0B99258013036EAF00404810 /* PBXTextBookmark */ = 0B99258013036EAF00404810 /* PBXTextBookmark */;
+			0B9925A81303779400404810 /* PBXTextBookmark */ = 0B9925A81303779400404810 /* PBXTextBookmark */;
+			0B9925C81303789C00404810 /* PBXTextBookmark */ = 0B9925C81303789C00404810 /* PBXTextBookmark */;
+			0BC03E12130DA2AC0097B609 /* PBXTextBookmark */ = 0BC03E12130DA2AC0097B609 /* PBXTextBookmark */;
+			0BC03E13130DA2AC0097B609 /* PBXTextBookmark */ = 0BC03E13130DA2AC0097B609 /* PBXTextBookmark */;
+			0BC03E14130DA2AC0097B609 /* PBXTextBookmark */ = 0BC03E14130DA2AC0097B609 /* PBXTextBookmark */;
+			0BC03E17130DA2AC0097B609 /* PBXTextBookmark */ = 0BC03E17130DA2AC0097B609 /* PBXTextBookmark */;
+			0BC03E19130DA2AC0097B609 /* PBXTextBookmark */ = 0BC03E19130DA2AC0097B609 /* PBXTextBookmark */;
+			0BF1332E128E196E00C57E87 /* PBXTextBookmark */ = 0BF1332E128E196E00C57E87 /* PBXTextBookmark */;
+			0BF13360128E1F1500C57E87 /* PBXTextBookmark */ = 0BF13360128E1F1500C57E87 /* PBXTextBookmark */;
+			0BF13362128E1F1500C57E87 /* PBXTextBookmark */ = 0BF13362128E1F1500C57E87 /* PBXTextBookmark */;
+			0BF13364128E1F1500C57E87 /* PBXTextBookmark */ = 0BF13364128E1F1500C57E87 /* PBXTextBookmark */;
+			0BF1336A128E1F1500C57E87 /* PBXTextBookmark */ = 0BF1336A128E1F1500C57E87 /* PBXTextBookmark */;
+			0BF1336E128E1F1500C57E87 /* PBXTextBookmark */ = 0BF1336E128E1F1500C57E87 /* PBXTextBookmark */;
+			0BF13370128E1F1500C57E87 /* PBXTextBookmark */ = 0BF13370128E1F1500C57E87 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 0BF13230128DF3BB00C57E87 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {809, 599}}";
+			sepNavSelRange = "{197, 0}";
+			sepNavVisRange = "{0, 361}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* MotionPhone_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {694, 616}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 320}";
+		};
+	};
+}

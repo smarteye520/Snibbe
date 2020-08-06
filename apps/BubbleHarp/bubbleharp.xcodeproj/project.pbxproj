@@ -1,0 +1,976 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B1497D411B54C2600F98A02 /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1497D311B54C2600F98A02 /* blank.png */; };
+		0B1C3E2F11BC400200DFC3EF /* interface-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C3E2E11BC400200DFC3EF /* interface-iPhone.xib */; };
+		0B1C3E8811BC50FC00DFC3EF /* settings-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C3E8711BC50FC00DFC3EF /* settings-iPhone.xib */; };
+		0B1C3EDF11BC5A0500DFC3EF /* black_pixel.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C3EDE11BC5A0500DFC3EF /* black_pixel.png */; };
+		0B1C3EF811BC5F9A00DFC3EF /* button_grey_dark_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C3EF711BC5F9A00DFC3EF /* button_grey_dark_bg.png */; };
+		0B1C3EFA11BC5FD500DFC3EF /* button_grey_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C3EF911BC5FD500DFC3EF /* button_grey_bg.png */; };
+		0B1C3FC111BC742C00DFC3EF /* info-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C3FBF11BC742C00DFC3EF /* info-iPhone.xib */; };
+		0B1C3FC211BC742C00DFC3EF /* share-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C3FC011BC742C00DFC3EF /* share-iPhone.xib */; };
+		0B1C403C11BC7EBB00DFC3EF /* button_black_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C403B11BC7EBB00DFC3EF /* button_black_bg.png */; };
+		0B1C414D11BD5E2200DFC3EF /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B1C414C11BD5E2200DFC3EF /* Entitlements.plist */; };
+		0B3A6D5F123E90150018DBE3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6D5E123E90150018DBE3 /* Default@2x.png */; };
+		0B3A6E36124156820018DBE3 /* ImageBrowserView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B3A6E2E124156810018DBE3 /* ImageBrowserView.mm */; };
+		0B3A6E37124156820018DBE3 /* ImageBrowserItemView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B3A6E30124156810018DBE3 /* ImageBrowserItemView.mm */; };
+		0B3A6E38124156820018DBE3 /* ImageBrowserItemLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B3A6E32124156810018DBE3 /* ImageBrowserItemLayer.mm */; };
+		0B3A6E39124156820018DBE3 /* ImageBrowserSoftEdgeLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B3A6E34124156810018DBE3 /* ImageBrowserSoftEdgeLayer.mm */; };
+		0B3A6E4A1241571A0018DBE3 /* load-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6E491241571A0018DBE3 /* load-iPad.xib */; };
+		0B3A6E55124173C60018DBE3 /* LoadViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B3A6E53124173C60018DBE3 /* LoadViewController.mm */; };
+		0B3A6F1B1241EF590018DBE3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0B3A6F1A1241EF590018DBE3 /* Settings.bundle */; };
+		0B4E2F2011378EE20042EBB9 /* info.html in Resources */ = {isa = PBXBuildFile; fileRef = 0B4E2F1F11378EE20042EBB9 /* info.html */; };
+		0B514555122D539700D1FE05 /* UIDeviceHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B514554122D539700D1FE05 /* UIDeviceHardware.m */; };
+		0B625CDA1208F82700F36E95 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B625CD61208F82700F36E95 /* Icon@2x.png */; };
+		0B625CDB1208F82700F36E95 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 0B625CD71208F82700F36E95 /* iTunesArtwork */; };
+		0B625CDC1208F82700F36E95 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B625CD81208F82700F36E95 /* Icon.png */; };
+		0B625CDD1208F82700F36E95 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B625CD91208F82700F36E95 /* Icon-72.png */; };
+		0B66DEDD124D21FD00F32B9E /* save-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B66DEDB124D21FD00F32B9E /* save-iPhone.xib */; };
+		0B66DEDE124D21FD00F32B9E /* load-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B66DEDC124D21FD00F32B9E /* load-iPhone.xib */; };
+		0B6FF72011C0B2A20066ABAB /* share-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B6FF71F11C0B2A20066ABAB /* share-iPad.xib */; };
+		0B7B615711CD55F000EB9020 /* antograph_icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B7B615511CD55F000EB9020 /* antograph_icon_72.png */; };
+		0B7B615811CD55F000EB9020 /* gravilux_icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B7B615611CD55F000EB9020 /* gravilux_icon_72.png */; };
+		0B7FE86A123C5C39008EA960 /* SaveViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B7FE868123C5C39008EA960 /* SaveViewController.mm */; };
+		0B7FE86B123C5C39008EA960 /* save-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B7FE869123C5C39008EA960 /* save-iPad.xib */; };
+		0B7FE944123DA82A008EA960 /* ThumbnailView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B7FE942123DA82A008EA960 /* ThumbnailView.mm */; };
+		0B88287A1224130900F5C8ED /* music-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B8828791224130900F5C8ED /* music-iPhone.xib */; };
+		0B8828821224179900F5C8ED /* double-note-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8828811224179900F5C8ED /* double-note-white.png */; };
+		0B8B8ECB11C32AE3003262F9 /* button_grey_disabled_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B8B8ECA11C32AE3003262F9 /* button_grey_disabled_bg.png */; };
+		0B8F3C75121DE58500D143BD /* C3.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B8F3C72121DE58500D143BD /* C3.wav */; };
+		0B8F3C76121DE58600D143BD /* C4.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B8F3C73121DE58500D143BD /* C4.wav */; };
+		0B8F3C77121DE58600D143BD /* C5.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0B8F3C74121DE58500D143BD /* C5.wav */; };
+		0B92B07B11B57DF400A276BA /* info-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B92B07711B57DF400A276BA /* info-iPad.xib */; };
+		0B92B07C11B57DF400A276BA /* InterfaceView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B92B07811B57DF400A276BA /* InterfaceView-iPad.xib */; };
+		0B92B0D711B5878500A276BA /* settings-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B92B0D611B5878500A276BA /* settings-iPad.xib */; };
+		0B993D7B11B2C7440026C1D5 /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B993D7A11B2C7440026C1D5 /* gear.png */; };
+		0B993D7F11B2D0080026C1D5 /* double-note.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B993D7E11B2D0080026C1D5 /* double-note.png */; };
+		0B993D8111B2D4330026C1D5 /* eraser.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B993D8011B2D4330026C1D5 /* eraser.png */; };
+		0B993D8311B2D7FC0026C1D5 /* single.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B993D8211B2D7FC0026C1D5 /* single.png */; };
+		0B993D8511B2DB6F0026C1D5 /* multi.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B993D8411B2DB6F0026C1D5 /* multi.png */; };
+		0B993D9711B2F8B60026C1D5 /* InterfaceViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B993D9611B2F8B60026C1D5 /* InterfaceViewController.mm */; };
+		0B9942CB11B453BB0026C1D5 /* SettingsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B9942CA11B453BB0026C1D5 /* SettingsViewController.mm */; };
+		0B9944BB11B4A4FB0026C1D5 /* InfoViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B9944BA11B4A4FB0026C1D5 /* InfoViewController.mm */; };
+		0B9945E211B4B5100026C1D5 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9945E111B4B5100026C1D5 /* info.png */; };
+		0B9A8E47122083250026859A /* points-label-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9A8E45122083250026859A /* points-label-image.png */; };
+		0B9A8E48122083250026859A /* reset-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9A8E46122083250026859A /* reset-icon.png */; };
+		0B9A8E4A12208AD90026859A /* stream_time_label.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9A8E4912208AD90026859A /* stream_time_label.png */; };
+		0B9A8E5A12208FE20026859A /* music-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B9A8E5912208FE20026859A /* music-iPad.xib */; };
+		0B9A8E6A1221351D0026859A /* music-label-image.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B9A8E691221351D0026859A /* music-label-image.png */; };
+		0B9A8E8612215E2B0026859A /* ScalePickerDataSource.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A8E8112215E2B0026859A /* ScalePickerDataSource.mm */; };
+		0B9A8E8712215E2B0026859A /* ScaleView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A8E8312215E2B0026859A /* ScaleView.mm */; };
+		0B9A8F15122178610026859A /* MusicViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0B9A8F14122178610026859A /* MusicViewController.mm */; };
+		0BA2FA1411714EEA0063888B /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BA2FA1311714EEA0063888B /* Default-Portrait.png */; };
+		0BC5142F126BD4B30048ED42 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BC5142E126BD4B30048ED42 /* Icon-50.png */; };
+		0BF0238C1221BF6B00798006 /* tempo_label.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF0238B1221BF6B00798006 /* tempo_label.png */; };
+		0BF132CB128E091B00C57E87 /* tripolar_icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF132CA128E091B00C57E87 /* tripolar_icon_72.png */; };
+		0BF7419B1175DCCE007E945F /* ah.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BF7419A1175DCCE007E945F /* ah.png */; };
+		6FF871C8155C8C3700818562 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF871C7155C8C3700818562 /* AudioToolbox.framework */; };
+		6FF871CA155C8C3E00818562 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF871C9155C8C3E00818562 /* QuartzCore.framework */; };
+		6FF871CC155C8C4600818562 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF871CB155C8C4600818562 /* OpenGLES.framework */; };
+		6FF871CE155C8C5000818562 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF871CD155C8C5000818562 /* UIKit.framework */; };
+		6FF871D0155C8C5900818562 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF871CF155C8C5900818562 /* Foundation.framework */; };
+		6FF871D2155C8C6000818562 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF871D1155C8C6000818562 /* CoreGraphics.framework */; };
+		6FF871D4155C8C6400818562 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF871D3155C8C6400818562 /* OpenAL.framework */; };
+		6FF871D6155C8C6700818562 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF871D5155C8C6700818562 /* CoreLocation.framework */; };
+		6FF871DB155C91A700818562 /* BubbleHarpAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6FF871DA155C91A700818562 /* BubbleHarpAppDelegate.mm */; };
+		6FF871E0155C925400818562 /* BubbleHarpViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6FF871DD155C925400818562 /* BubbleHarpViewController.mm */; };
+		6FF871E1155C925400818562 /* RotationController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6FF871DF155C925400818562 /* RotationController.mm */; };
+		6FF876B0155C97D600818562 /* libfmodex_iphoneos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FF876AF155C97D600818562 /* libfmodex_iphoneos.a */; };
+		844EF4E115617A3F00A08977 /* BubbleHarpView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 844EF4E015617A3F00A08977 /* BubbleHarpView.mm */; };
+		844EF4F715617B2400A08977 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 844EF4F615617B2400A08977 /* EAGLView.mm */; };
+		84B89FC81576FD7E00E82D67 /* libBubble.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B89FC71576FD5D00E82D67 /* libBubble.a */; };
+		BB16F3AD0F2B73B000518274 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = BB16F3A80F2B73B000518274 /* main.mm */; };
+		BBD1C2780F39143F007FCFB3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BBD1C2760F39143F007FCFB3 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B89FC61576FD5D00E82D67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B89FBF1576FD5D00E82D67 /* BubbleLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84B89FAB1576FBE400E82D67;
+			remoteInfo = BubbleLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B1497D311B54C2600F98A02 /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		0B1C3E2E11BC400200DFC3EF /* interface-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "interface-iPhone.xib"; sourceTree = "<group>"; };
+		0B1C3E8711BC50FC00DFC3EF /* settings-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "settings-iPhone.xib"; sourceTree = "<group>"; };
+		0B1C3EDE11BC5A0500DFC3EF /* black_pixel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black_pixel.png; sourceTree = "<group>"; };
+		0B1C3EF711BC5F9A00DFC3EF /* button_grey_dark_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_grey_dark_bg.png; sourceTree = "<group>"; };
+		0B1C3EF911BC5FD500DFC3EF /* button_grey_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_grey_bg.png; sourceTree = "<group>"; };
+		0B1C3FBF11BC742C00DFC3EF /* info-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "info-iPhone.xib"; sourceTree = "<group>"; };
+		0B1C3FC011BC742C00DFC3EF /* share-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "share-iPhone.xib"; sourceTree = "<group>"; };
+		0B1C403B11BC7EBB00DFC3EF /* button_black_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_black_bg.png; sourceTree = "<group>"; };
+		0B1C414C11BD5E2200DFC3EF /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Entitlements.plist; path = provisioning/Entitlements.plist; sourceTree = "<group>"; };
+		0B24551011B55DA50070B34B /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		0B24551111B55DA50070B34B /* ShareViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ShareViewController.mm; sourceTree = "<group>"; };
+		0B3A6D5E123E90150018DBE3 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		0B3A6E2D124156810018DBE3 /* ImageBrowserView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBrowserView.h; sourceTree = "<group>"; };
+		0B3A6E2E124156810018DBE3 /* ImageBrowserView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = ImageBrowserView.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0B3A6E2F124156810018DBE3 /* ImageBrowserItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBrowserItemView.h; sourceTree = "<group>"; };
+		0B3A6E30124156810018DBE3 /* ImageBrowserItemView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageBrowserItemView.mm; sourceTree = "<group>"; };
+		0B3A6E31124156810018DBE3 /* ImageBrowserItemLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBrowserItemLayer.h; sourceTree = "<group>"; };
+		0B3A6E32124156810018DBE3 /* ImageBrowserItemLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageBrowserItemLayer.mm; sourceTree = "<group>"; };
+		0B3A6E33124156810018DBE3 /* ImageBrowserSoftEdgeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageBrowserSoftEdgeLayer.h; sourceTree = "<group>"; };
+		0B3A6E34124156810018DBE3 /* ImageBrowserSoftEdgeLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageBrowserSoftEdgeLayer.mm; sourceTree = "<group>"; };
+		0B3A6E491241571A0018DBE3 /* load-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "load-iPad.xib"; sourceTree = "<group>"; };
+		0B3A6E53124173C60018DBE3 /* LoadViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = LoadViewController.mm; sourceTree = "<group>"; };
+		0B3A6E54124173C60018DBE3 /* LoadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadViewController.h; sourceTree = "<group>"; };
+		0B3A6F1A1241EF590018DBE3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		0B4E2F1F11378EE20042EBB9 /* info.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = info.html; sourceTree = "<group>"; };
+		0B514553122D539700D1FE05 /* UIDeviceHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIDeviceHardware.h; sourceTree = "<group>"; };
+		0B514554122D539700D1FE05 /* UIDeviceHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIDeviceHardware.m; sourceTree = "<group>"; };
+		0B625CD61208F82700F36E95 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0B625CD71208F82700F36E95 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = text; path = iTunesArtwork; sourceTree = "<group>"; };
+		0B625CD81208F82700F36E95 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		0B625CD91208F82700F36E95 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		0B66DEDB124D21FD00F32B9E /* save-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "save-iPhone.xib"; sourceTree = "<group>"; };
+		0B66DEDC124D21FD00F32B9E /* load-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "load-iPhone.xib"; sourceTree = "<group>"; };
+		0B6FF71F11C0B2A20066ABAB /* share-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "share-iPad.xib"; sourceTree = "<group>"; };
+		0B7B615511CD55F000EB9020 /* antograph_icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = antograph_icon_72.png; sourceTree = "<group>"; };
+		0B7B615611CD55F000EB9020 /* gravilux_icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gravilux_icon_72.png; sourceTree = "<group>"; };
+		0B7FE867123C5C39008EA960 /* SaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveViewController.h; sourceTree = "<group>"; };
+		0B7FE868123C5C39008EA960 /* SaveViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SaveViewController.mm; sourceTree = "<group>"; };
+		0B7FE869123C5C39008EA960 /* save-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "save-iPad.xib"; sourceTree = "<group>"; };
+		0B7FE942123DA82A008EA960 /* ThumbnailView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ThumbnailView.mm; sourceTree = "<group>"; };
+		0B7FE943123DA82A008EA960 /* ThumbnailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThumbnailView.h; sourceTree = "<group>"; };
+		0B8828791224130900F5C8ED /* music-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "music-iPhone.xib"; sourceTree = "<group>"; };
+		0B8828811224179900F5C8ED /* double-note-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "double-note-white.png"; sourceTree = "<group>"; };
+		0B8B8ECA11C32AE3003262F9 /* button_grey_disabled_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button_grey_disabled_bg.png; sourceTree = "<group>"; };
+		0B8F3C72121DE58500D143BD /* C3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C3.wav; path = samples/C3.wav; sourceTree = "<group>"; };
+		0B8F3C73121DE58500D143BD /* C4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C4.wav; path = samples/C4.wav; sourceTree = "<group>"; };
+		0B8F3C74121DE58500D143BD /* C5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C5.wav; path = samples/C5.wav; sourceTree = "<group>"; };
+		0B92AF9F11B560B300A276BA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B92B07711B57DF400A276BA /* info-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "info-iPad.xib"; sourceTree = "<group>"; };
+		0B92B07811B57DF400A276BA /* InterfaceView-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "InterfaceView-iPad.xib"; sourceTree = "<group>"; };
+		0B92B0D611B5878500A276BA /* settings-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "settings-iPad.xib"; sourceTree = "<group>"; };
+		0B993D7A11B2C7440026C1D5 /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		0B993D7E11B2D0080026C1D5 /* double-note.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "double-note.png"; sourceTree = "<group>"; };
+		0B993D8011B2D4330026C1D5 /* eraser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eraser.png; sourceTree = "<group>"; };
+		0B993D8211B2D7FC0026C1D5 /* single.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = single.png; sourceTree = "<group>"; };
+		0B993D8411B2DB6F0026C1D5 /* multi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = multi.png; sourceTree = "<group>"; };
+		0B993D9511B2F8B60026C1D5 /* InterfaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterfaceViewController.h; sourceTree = "<group>"; };
+		0B993D9611B2F8B60026C1D5 /* InterfaceViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = InterfaceViewController.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0B9942C911B453BB0026C1D5 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		0B9942CA11B453BB0026C1D5 /* SettingsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsViewController.mm; sourceTree = "<group>"; };
+		0B9944B911B4A4FB0026C1D5 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		0B9944BA11B4A4FB0026C1D5 /* InfoViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; lineEnding = 0; path = InfoViewController.mm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0B9945E111B4B5100026C1D5 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		0B9A8E45122083250026859A /* points-label-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "points-label-image.png"; sourceTree = "<group>"; };
+		0B9A8E46122083250026859A /* reset-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "reset-icon.png"; sourceTree = "<group>"; };
+		0B9A8E4912208AD90026859A /* stream_time_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stream_time_label.png; sourceTree = "<group>"; };
+		0B9A8E5912208FE20026859A /* music-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "music-iPad.xib"; sourceTree = "<group>"; };
+		0B9A8E691221351D0026859A /* music-label-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "music-label-image.png"; sourceTree = "<group>"; };
+		0B9A8E8012215E2B0026859A /* ScalePickerDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalePickerDataSource.h; sourceTree = "<group>"; };
+		0B9A8E8112215E2B0026859A /* ScalePickerDataSource.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScalePickerDataSource.mm; sourceTree = "<group>"; };
+		0B9A8E8212215E2B0026859A /* ScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScaleView.h; sourceTree = "<group>"; };
+		0B9A8E8312215E2B0026859A /* ScaleView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ScaleView.mm; sourceTree = "<group>"; };
+		0B9A8E8412215E2B0026859A /* MusicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MusicViewController.h; sourceTree = "<group>"; };
+		0B9A8F14122178610026859A /* MusicViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MusicViewController.mm; sourceTree = "<group>"; };
+		0BA2FA1311714EEA0063888B /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
+		0BC5142E126BD4B30048ED42 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
+		0BF0238B1221BF6B00798006 /* tempo_label.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tempo_label.png; sourceTree = "<group>"; };
+		0BF132CA128E091B00C57E87 /* tripolar_icon_72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tripolar_icon_72.png; sourceTree = "<group>"; };
+		0BF7419A1175DCCE007E945F /* ah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ah.png; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* BubbleHarp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BubbleHarp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FF871C7155C8C3700818562 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6FF871C9155C8C3E00818562 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6FF871CB155C8C4600818562 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6FF871CD155C8C5000818562 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6FF871CF155C8C5900818562 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6FF871D1155C8C6000818562 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6FF871D3155C8C6400818562 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		6FF871D5155C8C6700818562 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6FF871D9155C91A700818562 /* BubbleHarpAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleHarpAppDelegate.h; sourceTree = "<group>"; };
+		6FF871DA155C91A700818562 /* BubbleHarpAppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BubbleHarpAppDelegate.mm; sourceTree = "<group>"; };
+		6FF871DC155C925400818562 /* BubbleHarpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleHarpViewController.h; sourceTree = "<group>"; };
+		6FF871DD155C925400818562 /* BubbleHarpViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BubbleHarpViewController.mm; sourceTree = "<group>"; };
+		6FF871DE155C925400818562 /* RotationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationController.h; sourceTree = "<group>"; };
+		6FF871DF155C925400818562 /* RotationController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RotationController.mm; sourceTree = "<group>"; };
+		6FF87421155C97A500818562 /* fmod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod.h; sourceTree = "<group>"; };
+		6FF87422155C97A500818562 /* fmod.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fmod.hpp; sourceTree = "<group>"; };
+		6FF87423155C97A500818562 /* fmod_codec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_codec.h; sourceTree = "<group>"; };
+		6FF87424155C97A500818562 /* fmod_dsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_dsp.h; sourceTree = "<group>"; };
+		6FF87425155C97A500818562 /* fmod_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_errors.h; sourceTree = "<group>"; };
+		6FF87426155C97A500818562 /* fmod_memoryinfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_memoryinfo.h; sourceTree = "<group>"; };
+		6FF87427155C97A500818562 /* fmod_output.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmod_output.h; sourceTree = "<group>"; };
+		6FF87428155C97A500818562 /* fmodiphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fmodiphone.h; sourceTree = "<group>"; };
+		6FF876AF155C97D600818562 /* libfmodex_iphoneos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libfmodex_iphoneos.a; path = lib/libfmodex_iphoneos.a; sourceTree = "<group>"; };
+		844EF4DF15617A3F00A08977 /* BubbleHarpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleHarpView.h; sourceTree = "<group>"; };
+		844EF4E015617A3F00A08977 /* BubbleHarpView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BubbleHarpView.mm; sourceTree = "<group>"; };
+		844EF4F515617B2400A08977 /* EAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		844EF4F615617B2400A08977 /* EAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
+		84B89FBF1576FD5D00E82D67 /* BubbleLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BubbleLib.xcodeproj; path = ../../frameworks/BubbleLib/BubbleLib.xcodeproj; sourceTree = "<group>"; };
+		BB16F3A80F2B73B000518274 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		BBD1C2760F39143F007FCFB3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B89FC81576FD7E00E82D67 /* libBubble.a in Frameworks */,
+				6FF871D6155C8C6700818562 /* CoreLocation.framework in Frameworks */,
+				6FF871D4155C8C6400818562 /* OpenAL.framework in Frameworks */,
+				6FF871D2155C8C6000818562 /* CoreGraphics.framework in Frameworks */,
+				6FF871D0155C8C5900818562 /* Foundation.framework in Frameworks */,
+				6FF871CE155C8C5000818562 /* UIKit.framework in Frameworks */,
+				6FF871CC155C8C4600818562 /* OpenGLES.framework in Frameworks */,
+				6FF871CA155C8C3E00818562 /* QuartzCore.framework in Frameworks */,
+				6FF871C8155C8C3700818562 /* AudioToolbox.framework in Frameworks */,
+				6FF876B0155C97D600818562 /* libfmodex_iphoneos.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3A6E4B124157360018DBE3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0B92B07711B57DF400A276BA /* info-iPad.xib */,
+				0B1C3FBF11BC742C00DFC3EF /* info-iPhone.xib */,
+				0B92B07811B57DF400A276BA /* InterfaceView-iPad.xib */,
+				0B1C3E2E11BC400200DFC3EF /* interface-iPhone.xib */,
+				0B92B0D611B5878500A276BA /* settings-iPad.xib */,
+				0B1C3E8711BC50FC00DFC3EF /* settings-iPhone.xib */,
+				0B6FF71F11C0B2A20066ABAB /* share-iPad.xib */,
+				0B1C3FC011BC742C00DFC3EF /* share-iPhone.xib */,
+				0B9A8E5912208FE20026859A /* music-iPad.xib */,
+				0B8828791224130900F5C8ED /* music-iPhone.xib */,
+				0B7FE869123C5C39008EA960 /* save-iPad.xib */,
+				0B66DEDB124D21FD00F32B9E /* save-iPhone.xib */,
+				0B3A6E491241571A0018DBE3 /* load-iPad.xib */,
+				0B66DEDC124D21FD00F32B9E /* load-iPhone.xib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0B5546F3121BE4AD00F93A46 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0B8F3C72121DE58500D143BD /* C3.wav */,
+				0B8F3C73121DE58500D143BD /* C4.wav */,
+				0B8F3C74121DE58500D143BD /* C5.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
+		0BAE57971178DE6300CE3273 /* addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* BubbleHarp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				BB16F3A50F2B73B000518274 /* src */,
+				0B3A6E4B124157360018DBE3 /* Resources */,
+				0B3A6F1A1241EF590018DBE3 /* Settings.bundle */,
+				0B92AF9F11B560B300A276BA /* Info.plist */,
+				6FF8773A155C9BD600818562 /* 3rd Party */,
+				6FF871D7155C8E7100818562 /* Frameworks */,
+				0B5546F3121BE4AD00F93A46 /* sounds */,
+				BBD1C2750F39143F007FCFB3 /* data */,
+				0BAE57971178DE6300CE3273 /* addons */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				0B1C414C11BD5E2200DFC3EF /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		6FF871D7155C8E7100818562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B89FBF1576FD5D00E82D67 /* BubbleLib.xcodeproj */,
+				6FF871D5155C8C6700818562 /* CoreLocation.framework */,
+				6FF871D3155C8C6400818562 /* OpenAL.framework */,
+				6FF871D1155C8C6000818562 /* CoreGraphics.framework */,
+				6FF871CF155C8C5900818562 /* Foundation.framework */,
+				6FF871CD155C8C5000818562 /* UIKit.framework */,
+				6FF871CB155C8C4600818562 /* OpenGLES.framework */,
+				6FF871C9155C8C3E00818562 /* QuartzCore.framework */,
+				6FF871C7155C8C3700818562 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6FF871E6155C97A400818562 /* fmod iOS 4.40.05 */ = {
+			isa = PBXGroup;
+			children = (
+				6FF876B1155C97DC00818562 /* lib */,
+				6FF87420155C97A500818562 /* inc */,
+			);
+			name = "fmod iOS 4.40.05";
+			path = "../../frameworks/fmod iOS 4.40.05";
+			sourceTree = "<group>";
+		};
+		6FF87420155C97A500818562 /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				6FF87421155C97A500818562 /* fmod.h */,
+				6FF87422155C97A500818562 /* fmod.hpp */,
+				6FF87423155C97A500818562 /* fmod_codec.h */,
+				6FF87424155C97A500818562 /* fmod_dsp.h */,
+				6FF87425155C97A500818562 /* fmod_errors.h */,
+				6FF87426155C97A500818562 /* fmod_memoryinfo.h */,
+				6FF87427155C97A500818562 /* fmod_output.h */,
+				6FF87428155C97A500818562 /* fmodiphone.h */,
+			);
+			path = inc;
+			sourceTree = "<group>";
+		};
+		6FF876B1155C97DC00818562 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6FF876AF155C97D600818562 /* libfmodex_iphoneos.a */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		6FF8773A155C9BD600818562 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				6FF871E6155C97A400818562 /* fmod iOS 4.40.05 */,
+			);
+			name = "3rd Party";
+			sourceTree = "<group>";
+		};
+		84B89FC01576FD5D00E82D67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B89FC71576FD5D00E82D67 /* libBubble.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB16F3A50F2B73B000518274 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6FF871D9155C91A700818562 /* BubbleHarpAppDelegate.h */,
+				6FF871DA155C91A700818562 /* BubbleHarpAppDelegate.mm */,
+				6FF871DC155C925400818562 /* BubbleHarpViewController.h */,
+				6FF871DD155C925400818562 /* BubbleHarpViewController.mm */,
+				844EF4DF15617A3F00A08977 /* BubbleHarpView.h */,
+				844EF4E015617A3F00A08977 /* BubbleHarpView.mm */,
+				844EF4F515617B2400A08977 /* EAGLView.h */,
+				844EF4F615617B2400A08977 /* EAGLView.mm */,
+				6FF871DE155C925400818562 /* RotationController.h */,
+				6FF871DF155C925400818562 /* RotationController.mm */,
+				0B3A6E2D124156810018DBE3 /* ImageBrowserView.h */,
+				0B3A6E2E124156810018DBE3 /* ImageBrowserView.mm */,
+				0B3A6E2F124156810018DBE3 /* ImageBrowserItemView.h */,
+				0B3A6E30124156810018DBE3 /* ImageBrowserItemView.mm */,
+				0B3A6E31124156810018DBE3 /* ImageBrowserItemLayer.h */,
+				0B3A6E32124156810018DBE3 /* ImageBrowserItemLayer.mm */,
+				0B3A6E33124156810018DBE3 /* ImageBrowserSoftEdgeLayer.h */,
+				0B3A6E34124156810018DBE3 /* ImageBrowserSoftEdgeLayer.mm */,
+				0B3A6E53124173C60018DBE3 /* LoadViewController.mm */,
+				0B3A6E54124173C60018DBE3 /* LoadViewController.h */,
+				0B993D9511B2F8B60026C1D5 /* InterfaceViewController.h */,
+				0B993D9611B2F8B60026C1D5 /* InterfaceViewController.mm */,
+				0B24551011B55DA50070B34B /* ShareViewController.h */,
+				0B24551111B55DA50070B34B /* ShareViewController.mm */,
+				0B7FE867123C5C39008EA960 /* SaveViewController.h */,
+				0B7FE868123C5C39008EA960 /* SaveViewController.mm */,
+				0B7FE943123DA82A008EA960 /* ThumbnailView.h */,
+				0B7FE942123DA82A008EA960 /* ThumbnailView.mm */,
+				0B9A8E8212215E2B0026859A /* ScaleView.h */,
+				0B9A8E8312215E2B0026859A /* ScaleView.mm */,
+				0B9A8E8012215E2B0026859A /* ScalePickerDataSource.h */,
+				0B9A8E8112215E2B0026859A /* ScalePickerDataSource.mm */,
+				0B9A8E8412215E2B0026859A /* MusicViewController.h */,
+				0B9A8F14122178610026859A /* MusicViewController.mm */,
+				0B9944B911B4A4FB0026C1D5 /* InfoViewController.h */,
+				0B9944BA11B4A4FB0026C1D5 /* InfoViewController.mm */,
+				0B9942C911B453BB0026C1D5 /* SettingsViewController.h */,
+				0B9942CA11B453BB0026C1D5 /* SettingsViewController.mm */,
+				BB16F3A80F2B73B000518274 /* main.mm */,
+				0B514553122D539700D1FE05 /* UIDeviceHardware.h */,
+				0B514554122D539700D1FE05 /* UIDeviceHardware.m */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		BBD1C2750F39143F007FCFB3 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				0BF132CA128E091B00C57E87 /* tripolar_icon_72.png */,
+				0BC5142E126BD4B30048ED42 /* Icon-50.png */,
+				0B3A6D5E123E90150018DBE3 /* Default@2x.png */,
+				0B8828811224179900F5C8ED /* double-note-white.png */,
+				0BF0238B1221BF6B00798006 /* tempo_label.png */,
+				0B9A8E691221351D0026859A /* music-label-image.png */,
+				0B9A8E4912208AD90026859A /* stream_time_label.png */,
+				0B9A8E45122083250026859A /* points-label-image.png */,
+				0B9A8E46122083250026859A /* reset-icon.png */,
+				0B625CD61208F82700F36E95 /* Icon@2x.png */,
+				0B625CD71208F82700F36E95 /* iTunesArtwork */,
+				0B625CD81208F82700F36E95 /* Icon.png */,
+				0B625CD91208F82700F36E95 /* Icon-72.png */,
+				0B7B615511CD55F000EB9020 /* antograph_icon_72.png */,
+				0B7B615611CD55F000EB9020 /* gravilux_icon_72.png */,
+				0B8B8ECA11C32AE3003262F9 /* button_grey_disabled_bg.png */,
+				0B1C403B11BC7EBB00DFC3EF /* button_black_bg.png */,
+				0B1C3EF911BC5FD500DFC3EF /* button_grey_bg.png */,
+				0B1C3EF711BC5F9A00DFC3EF /* button_grey_dark_bg.png */,
+				0B1C3EDE11BC5A0500DFC3EF /* black_pixel.png */,
+				0B1497D311B54C2600F98A02 /* blank.png */,
+				0B9945E111B4B5100026C1D5 /* info.png */,
+				0B993D8411B2DB6F0026C1D5 /* multi.png */,
+				0B993D8211B2D7FC0026C1D5 /* single.png */,
+				0B993D8011B2D4330026C1D5 /* eraser.png */,
+				0B993D7E11B2D0080026C1D5 /* double-note.png */,
+				0B993D7A11B2C7440026C1D5 /* gear.png */,
+				0BF7419A1175DCCE007E945F /* ah.png */,
+				0B4E2F1F11378EE20042EBB9 /* info.html */,
+				BBD1C2760F39143F007FCFB3 /* Default.png */,
+				0BA2FA1311714EEA0063888B /* Default-Portrait.png */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* BubbleHarp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BubbleHarp" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BubbleHarp;
+			productName = iPhone;
+			productReference = 1D6058910D05DD3D006BFB54 /* BubbleHarp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Scott Snibbe";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "bubbleharp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84B89FC01576FD5D00E82D67 /* Products */;
+					ProjectRef = 84B89FBF1576FD5D00E82D67 /* BubbleLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* BubbleHarp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84B89FC71576FD5D00E82D67 /* libBubble.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBubble.a;
+			remoteRef = 84B89FC61576FD5D00E82D67 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD1C2780F39143F007FCFB3 /* Default.png in Resources */,
+				0B4E2F2011378EE20042EBB9 /* info.html in Resources */,
+				0BA2FA1411714EEA0063888B /* Default-Portrait.png in Resources */,
+				0BF7419B1175DCCE007E945F /* ah.png in Resources */,
+				0B993D7B11B2C7440026C1D5 /* gear.png in Resources */,
+				0B993D7F11B2D0080026C1D5 /* double-note.png in Resources */,
+				0B993D8111B2D4330026C1D5 /* eraser.png in Resources */,
+				0B993D8311B2D7FC0026C1D5 /* single.png in Resources */,
+				0B993D8511B2DB6F0026C1D5 /* multi.png in Resources */,
+				0B9945E211B4B5100026C1D5 /* info.png in Resources */,
+				0B1497D411B54C2600F98A02 /* blank.png in Resources */,
+				0B92B07B11B57DF400A276BA /* info-iPad.xib in Resources */,
+				0B92B07C11B57DF400A276BA /* InterfaceView-iPad.xib in Resources */,
+				0B92B0D711B5878500A276BA /* settings-iPad.xib in Resources */,
+				0B1C3E2F11BC400200DFC3EF /* interface-iPhone.xib in Resources */,
+				0B1C3E8811BC50FC00DFC3EF /* settings-iPhone.xib in Resources */,
+				0B1C3EDF11BC5A0500DFC3EF /* black_pixel.png in Resources */,
+				0B1C3EF811BC5F9A00DFC3EF /* button_grey_dark_bg.png in Resources */,
+				0B1C3EFA11BC5FD500DFC3EF /* button_grey_bg.png in Resources */,
+				0B1C3FC111BC742C00DFC3EF /* info-iPhone.xib in Resources */,
+				0B1C3FC211BC742C00DFC3EF /* share-iPhone.xib in Resources */,
+				0B1C403C11BC7EBB00DFC3EF /* button_black_bg.png in Resources */,
+				0B1C414D11BD5E2200DFC3EF /* Entitlements.plist in Resources */,
+				0B6FF72011C0B2A20066ABAB /* share-iPad.xib in Resources */,
+				0B8B8ECB11C32AE3003262F9 /* button_grey_disabled_bg.png in Resources */,
+				0B7B615711CD55F000EB9020 /* antograph_icon_72.png in Resources */,
+				0B7B615811CD55F000EB9020 /* gravilux_icon_72.png in Resources */,
+				0B625CDA1208F82700F36E95 /* Icon@2x.png in Resources */,
+				0B625CDB1208F82700F36E95 /* iTunesArtwork in Resources */,
+				0B625CDC1208F82700F36E95 /* Icon.png in Resources */,
+				0B625CDD1208F82700F36E95 /* Icon-72.png in Resources */,
+				0B8F3C75121DE58500D143BD /* C3.wav in Resources */,
+				0B8F3C76121DE58600D143BD /* C4.wav in Resources */,
+				0B8F3C77121DE58600D143BD /* C5.wav in Resources */,
+				0B9A8E47122083250026859A /* points-label-image.png in Resources */,
+				0B9A8E48122083250026859A /* reset-icon.png in Resources */,
+				0B9A8E4A12208AD90026859A /* stream_time_label.png in Resources */,
+				0B9A8E5A12208FE20026859A /* music-iPad.xib in Resources */,
+				0B9A8E6A1221351D0026859A /* music-label-image.png in Resources */,
+				0BF0238C1221BF6B00798006 /* tempo_label.png in Resources */,
+				0B88287A1224130900F5C8ED /* music-iPhone.xib in Resources */,
+				0B8828821224179900F5C8ED /* double-note-white.png in Resources */,
+				0B7FE86B123C5C39008EA960 /* save-iPad.xib in Resources */,
+				0B3A6D5F123E90150018DBE3 /* Default@2x.png in Resources */,
+				0B3A6E4A1241571A0018DBE3 /* load-iPad.xib in Resources */,
+				0B3A6F1B1241EF590018DBE3 /* Settings.bundle in Resources */,
+				0B66DEDD124D21FD00F32B9E /* save-iPhone.xib in Resources */,
+				0B66DEDE124D21FD00F32B9E /* load-iPhone.xib in Resources */,
+				0BC5142F126BD4B30048ED42 /* Icon-50.png in Resources */,
+				0BF132CB128E091B00C57E87 /* tripolar_icon_72.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB16F3AD0F2B73B000518274 /* main.mm in Sources */,
+				0B993D9711B2F8B60026C1D5 /* InterfaceViewController.mm in Sources */,
+				0B9942CB11B453BB0026C1D5 /* SettingsViewController.mm in Sources */,
+				0B9944BB11B4A4FB0026C1D5 /* InfoViewController.mm in Sources */,
+				0B9A8E8612215E2B0026859A /* ScalePickerDataSource.mm in Sources */,
+				0B9A8E8712215E2B0026859A /* ScaleView.mm in Sources */,
+				0B9A8F15122178610026859A /* MusicViewController.mm in Sources */,
+				0B514555122D539700D1FE05 /* UIDeviceHardware.m in Sources */,
+				0B7FE86A123C5C39008EA960 /* SaveViewController.mm in Sources */,
+				0B7FE944123DA82A008EA960 /* ThumbnailView.mm in Sources */,
+				0B3A6E36124156820018DBE3 /* ImageBrowserView.mm in Sources */,
+				0B3A6E37124156820018DBE3 /* ImageBrowserItemView.mm in Sources */,
+				0B3A6E38124156820018DBE3 /* ImageBrowserItemLayer.mm in Sources */,
+				0B3A6E39124156820018DBE3 /* ImageBrowserSoftEdgeLayer.mm in Sources */,
+				0B3A6E55124173C60018DBE3 /* LoadViewController.mm in Sources */,
+				6FF871DB155C91A700818562 /* BubbleHarpAppDelegate.mm in Sources */,
+				6FF871E0155C925400818562 /* BubbleHarpViewController.mm in Sources */,
+				6FF871E1155C925400818562 /* RotationController.mm in Sources */,
+				844EF4E115617A3F00A08977 /* BubbleHarpView.mm in Sources */,
+				844EF4F715617B2400A08977 /* EAGLView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0B1C414311BD5D4200DFC3EF /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = _DISTRIBUTION;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = "$(PROJECT_DIR)/../build/bubbleharp";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Ad Hoc Distribution";
+		};
+		0B1C414411BD5D4200DFC3EF /* Ad Hoc Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = provisioning/Entitlements.plist;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPhone_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"../../frameworks/FlurryAnalytics 3.0.9\"",
+					"\"../../frameworks/fmod iOS 4.40.05/inc\"",
+					"\"../../frameworks/BubbleLib/Source\"",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/freetype/lib\"",
+					"\"$(SRCROOT)/../../../libs/freeimage/lib\"",
+					"\"$(SRCROOT)/../../../libs/gluIphone\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/linux\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/linux64\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/osx\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/win_cb\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/linux\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/linux64\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/osx\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/win_cb\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/win_cb\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/armv6\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/linux\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/linux64\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/osx\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/vs2008\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/win_cb\"",
+					"\"$(DEVELOPER_DIR)/FMOD Programmers API iPhone/api/lib\"",
+					"\"$(SRCROOT)/../../../../frameworks/mTiks-SDK\"",
+					"\"../../../../frameworks/fmod iOS 4.40.05/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/fmoddesignerapi/api/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/tools/fsbanklib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-w",
+				);
+				PRODUCT_NAME = BubbleHarp;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = "Ad Hoc Distribution";
+		};
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPhone_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"../../frameworks/FlurryAnalytics 3.0.9\"",
+					"\"../../frameworks/fmod iOS 4.40.05/inc\"",
+					"\"../../frameworks/BubbleLib/Source\"",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/freetype/lib\"",
+					"\"$(SRCROOT)/../../../libs/freeimage/lib\"",
+					"\"$(SRCROOT)/../../../libs/gluIphone\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/linux\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/linux64\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/osx\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/win_cb\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/linux\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/linux64\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/osx\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/win_cb\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/win_cb\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/armv6\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/linux\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/linux64\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/osx\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/vs2008\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/win_cb\"",
+					"\"$(DEVELOPER_DIR)/FMOD Programmers API iPhone/api/lib\"",
+					"\"$(SRCROOT)/../../../../frameworks/mTiks-SDK\"",
+					"\"../../../../frameworks/fmod iOS 4.40.05/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/fmoddesignerapi/api/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/tools/fsbanklib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-w",
+				);
+				PRODUCT_NAME = BubbleHarp;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPhone_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"../../frameworks/FlurryAnalytics 3.0.9\"",
+					"\"../../frameworks/fmod iOS 4.40.05/inc\"",
+					"\"../../frameworks/BubbleLib/Source\"",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/freetype/lib\"",
+					"\"$(SRCROOT)/../../../libs/freeimage/lib\"",
+					"\"$(SRCROOT)/../../../libs/gluIphone\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/linux\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/linux64\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/osx\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/win_cb\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/linux\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/linux64\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/osx\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/win_cb\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/win_cb\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/armv6\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/linux\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/linux64\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/osx\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/vs2008\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/win_cb\"",
+					"\"$(DEVELOPER_DIR)/FMOD Programmers API iPhone/api/lib\"",
+					"\"$(SRCROOT)/../../../../frameworks/mTiks-SDK\"",
+					"\"../../../../frameworks/fmod iOS 4.40.05/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/fmoddesignerapi/api/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/tools/fsbanklib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-w",
+				);
+				PRODUCT_NAME = BubbleHarp;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BBD1C20A0F391092007FCFB3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = _DISTRIBUTION;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = "$(PROJECT_DIR)/../build/bubbleharp";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		BBD1C20B0F391092007FCFB3 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COMPRESS_PNG_FILES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = iPhone_Prefix.pch;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"\"../../frameworks/FlurryAnalytics 3.0.9\"",
+					"\"../../frameworks/fmod iOS 4.40.05/inc\"",
+					"\"../../frameworks/BubbleLib/Source\"",
+				);
+				INFOPLIST_FILE = Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../libs/freetype/lib\"",
+					"\"$(SRCROOT)/../../../libs/freeimage/lib\"",
+					"\"$(SRCROOT)/../../../libs/gluIphone\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/linux\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/linux64\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/osx\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/FreeImage/lib/win_cb\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/linux\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/linux64\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/osx\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/freetype/lib/win_cb\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/iphone\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/vs2008\"",
+					"\"$(SRCROOT)/../../../libs/glu/lib/win_cb\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/armv6\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/linux\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/linux64\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/osx\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/vs2008\"",
+					"\"$(DEVELOPER_DIR)/openFrameworks/libs/poco/lib/win_cb\"",
+					"\"$(DEVELOPER_DIR)/FMOD Programmers API iPhone/api/lib\"",
+					"\"$(SRCROOT)/../../../../frameworks/mTiks-SDK\"",
+					"\"../../../../frameworks/fmod iOS 4.40.05/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/fmoddesignerapi/api/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/lib\"",
+					"\"$(SRCROOT)/../../frameworks/fmod iOS 4.40.05/tools/fsbanklib\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-w",
+				);
+				PRODUCT_NAME = BubbleHarp;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = _DEBUG;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = "$(PROJECT_DIR)/../build/bubbleharp";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = _RELEASE;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				ONLY_ACTIVE_ARCH = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+				SYMROOT = "$(PROJECT_DIR)/../build/bubbleharp";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "BubbleHarp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				BBD1C20B0F391092007FCFB3 /* Distribution */,
+				0B1C414411BD5D4200DFC3EF /* Ad Hoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "bubbleharp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				BBD1C20A0F391092007FCFB3 /* Distribution */,
+				0B1C414311BD5D4200DFC3EF /* Ad Hoc Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

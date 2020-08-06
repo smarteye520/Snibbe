@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../../frameworks/SnibbeLib/SnibbeLib.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:MotionPhone.xcodeproj">
+   </FileRef>
+</Workspace>

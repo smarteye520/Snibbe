@@ -1,0 +1,151 @@
+From: Benny Beringer <benny@huettinger.de>
+Date: May 24, 2010 8:59:34 AM EDT
+To: Scott Snibbe <scott@snibbeinteractive.com>
+Subject: Re: another translation
+
+Hi Scott,
+
+Find below the translations for your apps.
+I'm not in the office today, but maybe we can have a chat within this 
+week about the Push into space exhibit.
+All the best,
+Benny
+
+************************
+Name: Bubble Harp
+
+Bubble Harp zeichnet "Bubbles" um deine Fingerspitzen, nimmt die 
+Bewegungen auf und gibt sie wieder. Es ist eine Form von sichtbar 
+gemachter Musik: eine Kombination von Zeichnen, Animation, Kunst, 
+Geometrie und Spiel. Man kann die Bewegungen eines einzelnen Punktes 
+aufnehmen oder mehrere Punkte aus den Fingerspitzen austreten lassen wie 
+Tinte. Durch Doppelklick auf die Ecken des Bildschirms kann man zwischen 
+den beiden Modi umschalten und auch andere Parameter ändern. Mehrere 
+Finger und mehrere Besucher können gleichzeitig an dem Werk arbeiten. 
+Bubble Harp erschien zunächst als Werk interaktiver Kunst von Scott Sona 
+Snibbe, das nur in Gallerien und Museen zugänglich war. Jetzt ist es als 
+iPhone und iPad Anwendung zu haben.
+
+Seifenblasen, Seifenblase, Simulation, Geometrie, Kunst, Animation, 
+interaktiv, Museum, Zeichnung, Mathematik, Harfe, Instrument
+
+****************************
+Name: Antograph
+
+Durch Berühren des Bildschirms beginnt ein Ameisenstrom aus deinen 
+Fingerspitzen zu wandern. Er folgt deinen Bewegungen, weil ihnen ein 
+unsichtbarer chemischer Pfad zeigt, wohin es geht. Trotzdem verlaufen 
+sich die Ameisen gelegentlich und wandern über den Bildschirm. Antograph 
+ist eine Kombination aus Zeichnen, Animation, Kunst, Wissenschaft und 
+Spiel. Es erschien zunächst als Werk interaktiver Kunst von Scott Sona 
+Snibbe, das nur in Gallerien und Museen zugänglich war. Jetzt ist es als 
+iPhone und iPad Anwendung zu haben. Doppelklick auf die Ecken des 
+Bildschirms bringt weitere Informationen und löscht den Screen.
+
+Ameise, Ameisen, Simulation, Malen, Farbe, Kunst, Animation, interactiv, 
+Museum, Zeichnung, Insekt, Insekten, Instrument
+
+
+
+
+
+
+Am 18.05.2010 16:09, schrieb Benny Beringer:
+Hi Scott,
+
+Sorry, I'm quite busy at the moment with this planetarium project.
+If you have a bit of time, I can look on it during the weekend.
+Do you remember the quote for the push into space exhibit?
+Benny
+
+
+
+Am 18.05.2010 16:08, schrieb Scott Snibbe:
+Hi Benny, wondering if you're willing to help with this translation? If
+you're not available let me know and I'll seek out some other help.
+Thanks again for the other translation!
+Scott
+
+On May 12, 2010, at 9:22 PM, Scott Snibbe wrote:
+
+Hi Benny,
+
+Would you consider please helping me with another translation for two
+more iPhone apps? I really appreciate it! I hope you're well.
+
+Scott
+
+Name: Bubble Harp
+
+App Description (580 chars):
+
+Bubble Harp draws bubbles around your fingertips, recording and
+replaying your movements. It’s a form of visual music: a combination
+of drawing, animation, art, geometry, and games. You can record long
+movements of a single point, or stream many points out of your
+fingertips like ink. When you double-tap in the screen’s corner, you
+can change from single points to streams of points, and change other
+parameters too. Multiple fingers and multiple people can touch the
+screen at once to create together. Bubble Harp was first released as a
+work of interactive art by Scott Sona Snibbe that was only available
+in galleries and museums. Now it’s available as an iPhone and iPad
+application.
+
+Keywords (100 chars): bubbles, bubble, simulation, geometry, art,
+animation, interactive, museum, drawing, math, harp, instrument
+
+(here's the old PC version of the app, for reference):
+http://snibbe.com/scott/dynamic/bubble_harp.html
+
+--------------
+
+Name: Antograph
+
+App Description (580 chars):
+
+Touch the screen of Antograph and you release a stream of ants from
+your fingertips. They follow your movements because you’ve also
+release invisible chemical trails that tell them where to go. Still,
+the ants often lose their way and wander across the screen. Antograph
+is a combination of drawing, animation, art, science, and gaming. It
+was first released as a work of interactive art by Scott Sona Snibbe
+that was only available in galleries and museums. Now it’s available
+as an iPhone and iPad application. Double-tap the screen corners for
+more information and to erase.
+
+Keywords (100 chars): ant, ants, simulation, painting, paint, art,
+animation, interactive, museum, drawing, bug, bugs, instrument
+
+(here's the old PC version of the app, for reference):
+http://snibbe.com/scott/dynamic/myrmegraph.html
+
+
+*Scott Snibbe
+**SNIBBE INTERACTIVE
+*1073 Howard Street
+San Francisco, CA 94103
+USA
+
+main: +1 415 822 1442
+direct: +1 415 480 4002
+http://snibbeinteractive.com <http://snibbeinteractive.com/>
+
+
+
+
+
+*Scott Snibbe
+**SNIBBE INTERACTIVE
+*1073 Howard Street
+San Francisco, CA 94103
+USA
+
+main: +1 415 822 1442
+direct: +1 415 480 4002
+http://snibbeinteractive.com
+
+
+
+
+
+
