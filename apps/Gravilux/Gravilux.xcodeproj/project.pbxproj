@@ -10,6 +10,7 @@
 		0BD84CE7148A9520006CB2F8 /* SSS-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BD84CE6148A9520006CB2F8 /* SSS-logo.png */; };
 		3BC0B82C1477414100168681 /* RotatingColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0B82B1477414100168681 /* RotatingColorButton.m */; };
 		3BC0B82E14774E8300168681 /* circle_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC0B82D14774E8300168681 /* circle_mask.png */; };
+		64F65E58D1F993C014FC2F82 /* Pods_Gravilux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5294108F36B456A3FF27B949 /* Pods_Gravilux.framework */; };
 		8403D6351472EA1600928481 /* NSObject+SBJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403D61D1472EA1600928481 /* NSObject+SBJson.m */; };
 		8403D6361472EA1600928481 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403D6201472EA1600928481 /* SBJsonParser.m */; };
 		8403D6371472EA1600928481 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403D6221472EA1600928481 /* SBJsonStreamParser.m */; };
@@ -386,6 +387,8 @@
 		3BC0B82A1477414100168681 /* RotatingColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingColorButton.h; sourceTree = "<group>"; };
 		3BC0B82B1477414100168681 /* RotatingColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingColorButton.m; sourceTree = "<group>"; };
 		3BC0B82D14774E8300168681 /* circle_mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle_mask.png; sourceTree = "<group>"; };
+		5294108F36B456A3FF27B949 /* Pods_Gravilux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Gravilux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		831DC2EED6D61D229C895EC3 /* Pods-Gravilux.app store.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gravilux.app store.xcconfig"; path = "Target Support Files/Pods-Gravilux/Pods-Gravilux.app store.xcconfig"; sourceTree = "<group>"; };
 		8403D61C1472EA1600928481 /* NSObject+SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJson.h"; sourceTree = "<group>"; };
 		8403D61D1472EA1600928481 /* NSObject+SBJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJson.m"; sourceTree = "<group>"; };
 		8403D61E1472EA1600928481 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
@@ -878,6 +881,9 @@
 		84F15C3D14CF811F00428476 /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlurryAnalytics.h; path = "../../frameworks/FlurryAnalytics 3.0.7/FlurryAnalytics.h"; sourceTree = "<group>"; };
 		84FB7D66143E569A007A23C6 /* ColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerView.h; sourceTree = "<group>"; };
 		84FB7D67143E569A007A23C6 /* ColorPickerView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColorPickerView.mm; sourceTree = "<group>"; };
+		8D7F48F60924FF2A0C2EBBD1 /* Pods-Gravilux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gravilux.debug.xcconfig"; path = "Target Support Files/Pods-Gravilux/Pods-Gravilux.debug.xcconfig"; sourceTree = "<group>"; };
+		BFDFBC00FFC1EBFCB0B66F53 /* Pods-Gravilux.ad hoc.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gravilux.ad hoc.xcconfig"; path = "Target Support Files/Pods-Gravilux/Pods-Gravilux.ad hoc.xcconfig"; sourceTree = "<group>"; };
+		E35339704D59831085ACF2E9 /* Pods-Gravilux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gravilux.release.xcconfig"; path = "Target Support Files/Pods-Gravilux/Pods-Gravilux.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -902,6 +908,7 @@
 				846A760A14182B080010C630 /* UIKit.framework in Frameworks */,
 				846A760C14182B080010C630 /* Foundation.framework in Frameworks */,
 				846A761014182B080010C630 /* OpenGLES.framework in Frameworks */,
+				64F65E58D1F993C014FC2F82 /* Pods_Gravilux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1072,6 +1079,7 @@
 				84F15C3C14CF80CE00428476 /* Libraries */,
 				846A760814182B080010C630 /* Frameworks */,
 				846A760614182B080010C630 /* Products */,
+				858192562D40E11654005ABE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1098,6 +1106,7 @@
 				846A760914182B080010C630 /* UIKit.framework */,
 				846A760B14182B080010C630 /* Foundation.framework */,
 				846A760F14182B080010C630 /* OpenGLES.framework */,
+				5294108F36B456A3FF27B949 /* Pods_Gravilux.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1876,6 +1885,18 @@
 			name = Libraries;
 			sourceTree = "<group>";
 		};
+		858192562D40E11654005ABE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D7F48F60924FF2A0C2EBBD1 /* Pods-Gravilux.debug.xcconfig */,
+				E35339704D59831085ACF2E9 /* Pods-Gravilux.release.xcconfig */,
+				BFDFBC00FFC1EBFCB0B66F53 /* Pods-Gravilux.ad hoc.xcconfig */,
+				831DC2EED6D61D229C895EC3 /* Pods-Gravilux.app store.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1883,9 +1904,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846A762C14182B090010C630 /* Build configuration list for PBXNativeTarget "Gravilux" */;
 			buildPhases = (
+				CD88DF8392C2101FC829092A /* [CP] Check Pods Manifest.lock */,
 				846A760114182B080010C630 /* Sources */,
 				846A760214182B080010C630 /* Frameworks */,
 				846A760314182B080010C630 /* Resources */,
+				5B0BE991040ABFA092BCCD31 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -1910,6 +1933,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				de,
 			);
@@ -2184,6 +2208,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5B0BE991040ABFA092BCCD31 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Gravilux/Pods-Gravilux-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Gravilux/Pods-Gravilux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD88DF8392C2101FC829092A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Gravilux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		846A760114182B080010C630 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -2338,7 +2409,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -2356,7 +2427,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
@@ -2367,11 +2438,9 @@
 		};
 		846A762D14182B090010C630 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D7F48F60924FF2A0C2EBBD1 /* Pods-Gravilux.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
@@ -2398,11 +2467,9 @@
 		};
 		846A762E14182B090010C630 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35339704D59831085ACF2E9 /* Pods-Gravilux.release.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
@@ -2439,7 +2506,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FCA49470-4D18-4E6E-B8DD-AB27645C29A7";
 				SDKROOT = iphoneos;
@@ -2450,11 +2517,9 @@
 		};
 		84BB7A7D14DCB60B00AD4B1C /* App Store */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 831DC2EED6D61D229C895EC3 /* Pods-Gravilux.app store.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
@@ -2490,7 +2555,7 @@
 				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6937A41F-A999-4215-B3AD-55D3E72991E6";
 				SDKROOT = iphoneos;
@@ -2501,11 +2566,9 @@
 		};
 		84E298E31489B8080008114E /* Ad Hoc */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFDFBC00FFC1EBFCB0B66F53 /* Pods-Gravilux.ad hoc.xcconfig */;
 			buildSettings = {
-				ARCHS = (
-					armv6,
-					armv7,
-				);
+				ARCHS = "$(ARCHS_STANDARD)";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";

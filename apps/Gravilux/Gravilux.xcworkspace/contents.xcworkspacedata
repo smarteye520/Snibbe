@@ -5,6 +5,6 @@
       location = "group:Gravilux.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../../frameworks/SnibbeLib/SnibbeLib.xcodeproj">
+      location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>
