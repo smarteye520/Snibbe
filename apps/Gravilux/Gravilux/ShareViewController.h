@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "SHKSharer.h"
+//#import "SHKSharer.h"
 
 #define WATERMARK_SCREENSHOT	1
 #define WATERMARK_IMAGE			@"symbol.png"
@@ -15,7 +15,8 @@
 #define WATERMARK_OFFSET_X		19
 #define WATERMARK_OFFSET_Y		24
 
-@interface ShareViewController : UIViewController<SHKSharerDelegate> {
+//@interface ShareViewController : UIViewController<SHKSharerDelegate> {
+@interface ShareViewController : UIViewController {
 	IBOutlet UIButton *facebookButton;
 	IBOutlet UIButton *twitterButton;
 	IBOutlet UIButton *emailButton;

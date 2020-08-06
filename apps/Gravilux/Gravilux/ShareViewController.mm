@@ -8,18 +8,18 @@
 
 #import "ShareViewController.h"
 //#import "FlurryAnalytics.h"
-#import "SHKFacebook.h"
-#import "SHKMail.h"
-#import "SHKPhotoAlbum.h"
-#import "SHKTwitter.h"
+//#import "SHKFacebook.h"
+//#import "SHKMail.h"
+//#import "SHKPhotoAlbum.h"
+//#import "SHKTwitter.h"
 #import "GraviluxViewController.h"
 #import "GraviluxAppDelegate.h"
 
 @interface ShareViewController() {
-	SHKMail			*shareMail;
-	SHKTwitter		*shareTwitter;
-	SHKFacebook		*shareFacebook;
-	SHKPhotoAlbum	*sharePhotoAlbum;
+//	SHKMail			*shareMail;
+//	SHKTwitter		*shareTwitter;
+//	SHKFacebook		*shareFacebook;
+//	SHKPhotoAlbum	*sharePhotoAlbum;
 }
 - (UIImage *)pdfToImage:(NSString*) filename size:(CGSize) size;
 - (UIImage *)screenshotImage;
@@ -36,10 +36,10 @@ static NSString* kEmailBody = @"Check out this work of art I made on my %@ with 
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-		shareMail = [[SHKMail alloc] init];
-		sharePhotoAlbum = [[SHKPhotoAlbum alloc] init];
-		shareFacebook = [[SHKFacebook alloc] init];
-		shareTwitter = [[SHKTwitter alloc] init];
+//		shareMail = [[SHKMail alloc] init];
+//		sharePhotoAlbum = [[SHKPhotoAlbum alloc] init];
+//		shareFacebook = [[SHKFacebook alloc] init];
+//		shareTwitter = [[SHKTwitter alloc] init];
     }
     return self;
 }
@@ -47,10 +47,10 @@ static NSString* kEmailBody = @"Check out this work of art I made on my %@ with 
 - (void)dealloc
 {
 	// Sharekit instances
-	[shareMail release];
-	[shareTwitter release];
-	[shareFacebook release];
-	[sharePhotoAlbum release];
+//	[shareMail release];
+//	[shareTwitter release];
+//	[shareFacebook release];
+//	[sharePhotoAlbum release];
 	
 	// Screenshot data
 	if (imageBuffer_) {
@@ -78,12 +78,12 @@ static NSString* kEmailBody = @"Check out this work of art I made on my %@ with 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	[SHK setRootViewController:((GraviluxAppDelegate *)([UIApplication sharedApplication].delegate)).rotationController];
-	
-	if (![SHKMail canShare]) {
-		emailButton.enabled = NO;
-		emailButton.alpha = .5;
-	}
+//	[SHK setRootViewController:((GraviluxAppDelegate *)([UIApplication sharedApplication].delegate)).rotationController];
+//
+//	if (![SHKMail canShare]) {
+//		emailButton.enabled = NO;
+//		emailButton.alpha = .5;
+//	}
 	
 	contentScaleFactor = 1.0;
 	if ([[UIScreen mainScreen] respondsToSelector:@selector(scale)]) {
@@ -221,81 +221,81 @@ static NSString* kEmailBody = @"Check out this work of art I made on my %@ with 
 }
 
 #pragma mark - SHKSharerDelegate Methods
-- (void)sharerStartedSending:(SHKSharer *)sharer
-{
-	//	[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Started", @"Status", nil] timed:YES];
-#ifdef DEBUG
-	NSLog(@"Sharer %@ started", [sharer sharerTitle]);
-#endif
-}
+//- (void)sharerStartedSending:(SHKSharer *)sharer
+//{
+//	//	[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Started", @"Status", nil] timed:YES];
+//#ifdef DEBUG
+//	NSLog(@"Sharer %@ started", [sharer sharerTitle]);
+//#endif
+//}
+//
+//- (void)sharerFinishedSending:(SHKSharer *)sharer
+//{
+////	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Finished", @"Status", nil]];
+//#ifdef DEBUG
+//	NSLog(@"Sharer %@ finished", [sharer sharerTitle]);
+//#endif
+//}
+//
+//- (void)sharer:(SHKSharer *)sharer failedWithError:(NSError *)error shouldRelogin:(BOOL)shouldRelogin
+//{
+////	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Failed", @"Status", [error description], @"Error", [NSNumber numberWithBool:shouldRelogin], @"Should Relogin", nil]];
+//#ifdef DEBUG
+//	NSLog(@"Sharer %@ failed", [sharer sharerTitle]);
+//#endif
+//}
+//
+//- (void)sharerCancelledSending:(SHKSharer *)sharer
+//{
+////	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Canceled", @"Status", nil]];
+//#ifdef DEBUG
+//	NSLog(@"Sharer %@ canceled", [sharer sharerTitle]);
+//#endif
+//}
 
-- (void)sharerFinishedSending:(SHKSharer *)sharer
-{
-//	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Finished", @"Status", nil]];
-#ifdef DEBUG
-	NSLog(@"Sharer %@ finished", [sharer sharerTitle]);
-#endif
-}
-
-- (void)sharer:(SHKSharer *)sharer failedWithError:(NSError *)error shouldRelogin:(BOOL)shouldRelogin
-{
-//	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Failed", @"Status", [error description], @"Error", [NSNumber numberWithBool:shouldRelogin], @"Should Relogin", nil]];
-#ifdef DEBUG
-	NSLog(@"Sharer %@ failed", [sharer sharerTitle]);
-#endif
-}
-
-- (void)sharerCancelledSending:(SHKSharer *)sharer
-{
-//	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Canceled", @"Status", nil]];
-#ifdef DEBUG
-	NSLog(@"Sharer %@ canceled", [sharer sharerTitle]);
-#endif
-}
-
-#pragma mark UI Actions
+#pragma mark - UI Actions
 
 - (IBAction)share:(id)sender
 {
 	UIImage *screenImage = [self watermarkImage:[self screenshotImage]];
 	
-	SHKItem *item = [SHKItem image:screenImage
-							 title:[NSString 
-									stringWithFormat:@"I created this with Gravilux on my %@",
-									[[UIDevice currentDevice] model]]];
-	item.text = [NSString stringWithFormat:kEmailBody, [[UIDevice currentDevice] model]];
-	
-	SHKSharer * sharer = nil;
-	
-	if ([emailButton isEqual:sender]) {
-		if ([SHKMail canShareImage]) {
-//			[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKMail sharerTitle], @"Service", nil] timed:YES];
-			sharer = [SHKMail shareItem:item];
-		}
-		else {
-			NSLog(@"Cannot share images with email");
-		}
-	} else if ([photosButton isEqual:sender]) {
-//		[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKPhotoAlbum sharerTitle], @"Service", nil] timed:NO];
-		sharer = [SHKPhotoAlbum shareItem:item];
-	} else if ([facebookButton isEqual:sender]) {
-		if ([SHKFacebook canShareImage]) {
-//			[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKFacebook sharerTitle], @"Service", nil] timed:YES];
-			sharer = [SHKFacebook shareItem:item];
-		}
-		else {
-			NSLog(@"Cannot share images to Facebook");
-		}
-	} else if ([twitterButton isEqual:sender]) {
-//		[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKTwitter sharerTitle], @"Service", nil] timed:YES];
-		sharer = [SHKTwitter shareItem:item];
-	}
-	
-	if (sharer) {
-		sharer.shareDelegate = self;
-		[sharer share];
-//		[sharer release];
-	}
+//	SHKItem *item = [SHKItem image:screenImage
+//							 title:[NSString
+//									stringWithFormat:@"I created this with Gravilux on my %@",
+//									[[UIDevice currentDevice] model]]];
+//	item.text = [NSString stringWithFormat:kEmailBody, [[UIDevice currentDevice] model]];
+//
+//	SHKSharer * sharer = nil;
+//
+//	if ([emailButton isEqual:sender]) {
+//		if ([SHKMail canShareImage]) {
+////			[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKMail sharerTitle], @"Service", nil] timed:YES];
+//			sharer = [SHKMail shareItem:item];
+//		}
+//		else {
+//			NSLog(@"Cannot share images with email");
+//		}
+//	} else if ([photosButton isEqual:sender]) {
+////		[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKPhotoAlbum sharerTitle], @"Service", nil] timed:NO];
+//		sharer = [SHKPhotoAlbum shareItem:item];
+//	} else if ([facebookButton isEqual:sender]) {
+//		if ([SHKFacebook canShareImage]) {
+////			[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKFacebook sharerTitle], @"Service", nil] timed:YES];
+//			sharer = [SHKFacebook shareItem:item];
+//		}
+//		else {
+//			NSLog(@"Cannot share images to Facebook");
+//		}
+//	} else if ([twitterButton isEqual:sender]) {
+////		[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKTwitter sharerTitle], @"Service", nil] timed:YES];
+//		sharer = [SHKTwitter shareItem:item];
+//	}
+//
+//	if (sharer) {
+//		sharer.shareDelegate = self;
+//		[sharer share];
+////		[sharer release];
+//	}
 //	[screenImage release];
 }
 

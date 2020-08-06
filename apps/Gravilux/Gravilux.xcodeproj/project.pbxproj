@@ -7,27 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04018C0B24DC44A9001DB28A /* SHKOAuthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BDC24DC44A9001DB28A /* SHKOAuthView.m */; };
-		04018C0C24DC44A9001DB28A /* SHKShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BDD24DC44A9001DB28A /* SHKShareMenu.m */; };
-		04018C0D24DC44A9001DB28A /* SHKFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BDF24DC44A9001DB28A /* SHKFormFieldCell.m */; };
-		04018C0E24DC44A9001DB28A /* SHKFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BE024DC44A9001DB28A /* SHKFormController.m */; };
-		04018C0F24DC44A9001DB28A /* SHKActivityIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BE124DC44A9001DB28A /* SHKActivityIndicator.m */; };
-		04018C1024DC44A9001DB28A /* SHKFormFieldSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BE324DC44A9001DB28A /* SHKFormFieldSettings.m */; };
-		04018C1124DC44A9001DB28A /* SHKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BE524DC44A9001DB28A /* SHKActionSheet.m */; };
-		04018C1224DC44A9001DB28A /* SHKViewControllerWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BE824DC44A9001DB28A /* SHKViewControllerWrapper.m */; };
-		04018C1324DC44A9001DB28A /* SHKOfflineSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BF024DC44A9001DB28A /* SHKOfflineSharer.m */; };
-		04018C1424DC44A9001DB28A /* SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BF124DC44A9001DB28A /* SHK.m */; };
-		04018C1524DC44A9001DB28A /* SHKOAuthSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BF524DC44A9001DB28A /* SHKOAuthSharer.m */; };
-		04018C1624DC44A9001DB28A /* SHKSharer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BF624DC44A9001DB28A /* SHKSharer.m */; };
-		04018C1724DC44A9001DB28A /* SHKSharers.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04018BF724DC44A9001DB28A /* SHKSharers.plist */; };
-		04018C1824DC44A9001DB28A /* UIWebView+SHK.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BFA24DC44A9001DB28A /* UIWebView+SHK.m */; };
-		04018C1924DC44A9001DB28A /* SHKRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BFC24DC44A9001DB28A /* SHKRequest.m */; };
-		04018C1A24DC44A9001DB28A /* SHKItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018BFE24DC44A9001DB28A /* SHKItem.m */; };
-		04018C1B24DC44A9001DB28A /* SHKCustomFormFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018C0024DC44A9001DB28A /* SHKCustomFormFieldCell.m */; };
-		04018C1C24DC44A9001DB28A /* SHKCustomShareMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018C0124DC44A9001DB28A /* SHKCustomShareMenuCell.m */; };
-		04018C1D24DC44A9001DB28A /* SHKCustomFormController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018C0524DC44A9001DB28A /* SHKCustomFormController.m */; };
-		04018C1E24DC44A9001DB28A /* SHKCustomShareMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018C0624DC44A9001DB28A /* SHKCustomShareMenu.m */; };
-		04018C1F24DC44A9001DB28A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 04018C0924DC44A9001DB28A /* Reachability.m */; };
 		0BD84CE7148A9520006CB2F8 /* SSS-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BD84CE6148A9520006CB2F8 /* SSS-logo.png */; };
 		3BC0B82C1477414100168681 /* RotatingColorButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0B82B1477414100168681 /* RotatingColorButton.m */; };
 		3BC0B82E14774E8300168681 /* circle_mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BC0B82D14774E8300168681 /* circle_mask.png */; };
@@ -340,48 +319,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		04018BDB24DC44A9001DB28A /* SHKFormFieldSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFormFieldSettings.h; sourceTree = "<group>"; };
-		04018BDC24DC44A9001DB28A /* SHKOAuthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKOAuthView.m; sourceTree = "<group>"; };
-		04018BDD24DC44A9001DB28A /* SHKShareMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKShareMenu.m; sourceTree = "<group>"; };
-		04018BDE24DC44A9001DB28A /* SHKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKActionSheet.h; sourceTree = "<group>"; };
-		04018BDF24DC44A9001DB28A /* SHKFormFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKFormFieldCell.m; sourceTree = "<group>"; };
-		04018BE024DC44A9001DB28A /* SHKFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKFormController.m; sourceTree = "<group>"; };
-		04018BE124DC44A9001DB28A /* SHKActivityIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKActivityIndicator.m; sourceTree = "<group>"; };
-		04018BE224DC44A9001DB28A /* SHKViewControllerWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKViewControllerWrapper.h; sourceTree = "<group>"; };
-		04018BE324DC44A9001DB28A /* SHKFormFieldSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKFormFieldSettings.m; sourceTree = "<group>"; };
-		04018BE424DC44A9001DB28A /* SHKFormFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFormFieldCell.h; sourceTree = "<group>"; };
-		04018BE524DC44A9001DB28A /* SHKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKActionSheet.m; sourceTree = "<group>"; };
-		04018BE624DC44A9001DB28A /* SHKOAuthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKOAuthView.h; sourceTree = "<group>"; };
-		04018BE724DC44A9001DB28A /* SHKShareMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKShareMenu.h; sourceTree = "<group>"; };
-		04018BE824DC44A9001DB28A /* SHKViewControllerWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKViewControllerWrapper.m; sourceTree = "<group>"; };
-		04018BE924DC44A9001DB28A /* SHKActivityIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKActivityIndicator.h; sourceTree = "<group>"; };
-		04018BEA24DC44A9001DB28A /* SHKFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKFormController.h; sourceTree = "<group>"; };
-		04018BEB24DC44A9001DB28A /* SHKConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKConfig.h; sourceTree = "<group>"; };
-		04018BED24DC44A9001DB28A /* SHK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHK.h; sourceTree = "<group>"; };
-		04018BEE24DC44A9001DB28A /* SHKOfflineSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKOfflineSharer.h; sourceTree = "<group>"; };
-		04018BEF24DC44A9001DB28A /* SHKItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKItem.h; sourceTree = "<group>"; };
-		04018BF024DC44A9001DB28A /* SHKOfflineSharer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKOfflineSharer.m; sourceTree = "<group>"; };
-		04018BF124DC44A9001DB28A /* SHK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHK.m; sourceTree = "<group>"; };
-		04018BF324DC44A9001DB28A /* SHKOAuthSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKOAuthSharer.h; sourceTree = "<group>"; };
-		04018BF424DC44A9001DB28A /* SHKSharer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKSharer.h; sourceTree = "<group>"; };
-		04018BF524DC44A9001DB28A /* SHKOAuthSharer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKOAuthSharer.m; sourceTree = "<group>"; };
-		04018BF624DC44A9001DB28A /* SHKSharer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKSharer.m; sourceTree = "<group>"; };
-		04018BF724DC44A9001DB28A /* SHKSharers.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SHKSharers.plist; sourceTree = "<group>"; };
-		04018BF924DC44A9001DB28A /* UIWebView+SHK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+SHK.h"; sourceTree = "<group>"; };
-		04018BFA24DC44A9001DB28A /* UIWebView+SHK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+SHK.m"; sourceTree = "<group>"; };
-		04018BFC24DC44A9001DB28A /* SHKRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKRequest.m; sourceTree = "<group>"; };
-		04018BFD24DC44A9001DB28A /* SHKRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKRequest.h; sourceTree = "<group>"; };
-		04018BFE24DC44A9001DB28A /* SHKItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKItem.m; sourceTree = "<group>"; };
-		04018C0024DC44A9001DB28A /* SHKCustomFormFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKCustomFormFieldCell.m; sourceTree = "<group>"; };
-		04018C0124DC44A9001DB28A /* SHKCustomShareMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKCustomShareMenuCell.m; sourceTree = "<group>"; };
-		04018C0224DC44A9001DB28A /* SHKCustomShareMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKCustomShareMenu.h; sourceTree = "<group>"; };
-		04018C0324DC44A9001DB28A /* SHKCustomFormController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKCustomFormController.h; sourceTree = "<group>"; };
-		04018C0424DC44A9001DB28A /* SHKCustomFormFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKCustomFormFieldCell.h; sourceTree = "<group>"; };
-		04018C0524DC44A9001DB28A /* SHKCustomFormController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKCustomFormController.m; sourceTree = "<group>"; };
-		04018C0624DC44A9001DB28A /* SHKCustomShareMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHKCustomShareMenu.m; sourceTree = "<group>"; };
-		04018C0724DC44A9001DB28A /* SHKCustomShareMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHKCustomShareMenuCell.h; sourceTree = "<group>"; };
-		04018C0924DC44A9001DB28A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
-		04018C0A24DC44A9001DB28A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		0BD84CE6148A9520006CB2F8 /* SSS-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SSS-logo.png"; sourceTree = "<group>"; };
 		3BC0B82A1477414100168681 /* RotatingColorButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatingColorButton.h; sourceTree = "<group>"; };
 		3BC0B82B1477414100168681 /* RotatingColorButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatingColorButton.m; sourceTree = "<group>"; };
@@ -783,112 +720,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04018BD924DC44A9001DB28A /* ShareKit */ = {
-			isa = PBXGroup;
-			children = (
-				04018BDA24DC44A9001DB28A /* UI */,
-				04018BEB24DC44A9001DB28A /* SHKConfig.h */,
-				04018BEC24DC44A9001DB28A /* Core */,
-				04018BFF24DC44A9001DB28A /* Customize UI */,
-				04018C0824DC44A9001DB28A /* Reachability */,
-			);
-			name = ShareKit;
-			path = ../../frameworks/ShareKit;
-			sourceTree = "<group>";
-		};
-		04018BDA24DC44A9001DB28A /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				04018BDB24DC44A9001DB28A /* SHKFormFieldSettings.h */,
-				04018BDC24DC44A9001DB28A /* SHKOAuthView.m */,
-				04018BDD24DC44A9001DB28A /* SHKShareMenu.m */,
-				04018BDE24DC44A9001DB28A /* SHKActionSheet.h */,
-				04018BDF24DC44A9001DB28A /* SHKFormFieldCell.m */,
-				04018BE024DC44A9001DB28A /* SHKFormController.m */,
-				04018BE124DC44A9001DB28A /* SHKActivityIndicator.m */,
-				04018BE224DC44A9001DB28A /* SHKViewControllerWrapper.h */,
-				04018BE324DC44A9001DB28A /* SHKFormFieldSettings.m */,
-				04018BE424DC44A9001DB28A /* SHKFormFieldCell.h */,
-				04018BE524DC44A9001DB28A /* SHKActionSheet.m */,
-				04018BE624DC44A9001DB28A /* SHKOAuthView.h */,
-				04018BE724DC44A9001DB28A /* SHKShareMenu.h */,
-				04018BE824DC44A9001DB28A /* SHKViewControllerWrapper.m */,
-				04018BE924DC44A9001DB28A /* SHKActivityIndicator.h */,
-				04018BEA24DC44A9001DB28A /* SHKFormController.h */,
-			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		04018BEC24DC44A9001DB28A /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				04018BED24DC44A9001DB28A /* SHK.h */,
-				04018BEE24DC44A9001DB28A /* SHKOfflineSharer.h */,
-				04018BEF24DC44A9001DB28A /* SHKItem.h */,
-				04018BF024DC44A9001DB28A /* SHKOfflineSharer.m */,
-				04018BF124DC44A9001DB28A /* SHK.m */,
-				04018BF224DC44A9001DB28A /* Base Sharer Classes */,
-				04018BF724DC44A9001DB28A /* SHKSharers.plist */,
-				04018BF824DC44A9001DB28A /* Categories */,
-				04018BFB24DC44A9001DB28A /* Helpers */,
-				04018BFE24DC44A9001DB28A /* SHKItem.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		04018BF224DC44A9001DB28A /* Base Sharer Classes */ = {
-			isa = PBXGroup;
-			children = (
-				04018BF324DC44A9001DB28A /* SHKOAuthSharer.h */,
-				04018BF424DC44A9001DB28A /* SHKSharer.h */,
-				04018BF524DC44A9001DB28A /* SHKOAuthSharer.m */,
-				04018BF624DC44A9001DB28A /* SHKSharer.m */,
-			);
-			path = "Base Sharer Classes";
-			sourceTree = "<group>";
-		};
-		04018BF824DC44A9001DB28A /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				04018BF924DC44A9001DB28A /* UIWebView+SHK.h */,
-				04018BFA24DC44A9001DB28A /* UIWebView+SHK.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		04018BFB24DC44A9001DB28A /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				04018BFC24DC44A9001DB28A /* SHKRequest.m */,
-				04018BFD24DC44A9001DB28A /* SHKRequest.h */,
-			);
-			path = Helpers;
-			sourceTree = "<group>";
-		};
-		04018BFF24DC44A9001DB28A /* Customize UI */ = {
-			isa = PBXGroup;
-			children = (
-				04018C0024DC44A9001DB28A /* SHKCustomFormFieldCell.m */,
-				04018C0124DC44A9001DB28A /* SHKCustomShareMenuCell.m */,
-				04018C0224DC44A9001DB28A /* SHKCustomShareMenu.h */,
-				04018C0324DC44A9001DB28A /* SHKCustomFormController.h */,
-				04018C0424DC44A9001DB28A /* SHKCustomFormFieldCell.h */,
-				04018C0524DC44A9001DB28A /* SHKCustomFormController.m */,
-				04018C0624DC44A9001DB28A /* SHKCustomShareMenu.m */,
-				04018C0724DC44A9001DB28A /* SHKCustomShareMenuCell.h */,
-			);
-			path = "Customize UI";
-			sourceTree = "<group>";
-		};
-		04018C0824DC44A9001DB28A /* Reachability */ = {
-			isa = PBXGroup;
-			children = (
-				04018C0924DC44A9001DB28A /* Reachability.m */,
-				04018C0A24DC44A9001DB28A /* Reachability.h */,
-			);
-			path = Reachability;
-			sourceTree = "<group>";
-		};
 		8403D61B1472EA1600928481 /* SBJson */ = {
 			isa = PBXGroup;
 			children = (
@@ -1021,7 +852,6 @@
 			children = (
 				84D06E54142288FE00E29596 /* ofxMSAShape3D.h */,
 				8403D61B1472EA1600928481 /* SBJson */,
-				04018BD924DC44A9001DB28A /* ShareKit */,
 				8463F9E11458CA9A00ABC5DE /* fmod */,
 			);
 			name = "3rd Party";
@@ -1763,7 +1593,6 @@
 				8420AB4E1474AAF400D3859A /* color_music_on.png in Resources */,
 				8420AB4F1474AAF400D3859A /* color_music_on@2x.png in Resources */,
 				8420AB501474AAF400D3859A /* handle_example.png in Resources */,
-				04018C1724DC44A9001DB28A /* SHKSharers.plist in Resources */,
 				8420AB511474AAF400D3859A /* handle_example@2x.png in Resources */,
 				8420AB521474AAF400D3859A /* pick_song.png in Resources */,
 				8420AB531474AAF400D3859A /* pick_song@2x.png in Resources */,
@@ -1875,36 +1704,24 @@
 				846A763114182B5C0010C630 /* Gravilux.mm in Sources */,
 				846A763F14182E950010C630 /* Grain.mm in Sources */,
 				846A764014182E950010C630 /* Parameters.mm in Sources */,
-				04018C1324DC44A9001DB28A /* SHKOfflineSharer.m in Sources */,
 				84AC8FB1141ACE88003A621D /* UIDeviceHardware.m in Sources */,
 				84E958051421668300F1D48B /* EAGLView.mm in Sources */,
 				84E958081421679C00F1D48B /* GraviluxViewController.mm in Sources */,
 				845A874A14229A12002A442E /* GraviluxView.mm in Sources */,
-				04018C1824DC44A9001DB28A /* UIWebView+SHK.m in Sources */,
 				8435F9F9143B8E2F0088FEDB /* InterfaceViewController.mm in Sources */,
 				84FB7D68143E569A007A23C6 /* ColorPickerView.mm in Sources */,
 				8477E9741443A6340005BCA5 /* ColorCircle.mm in Sources */,
 				848296961447702400B8DAAD /* MicrophoneListener.m in Sources */,
 				849B39551447B3B900DD33D6 /* ForceState.mm in Sources */,
-				04018C1A24DC44A9001DB28A /* SHKItem.m in Sources */,
 				849B398B144906CB00DD33D6 /* Visualizer.mm in Sources */,
-				04018C1224DC44A9001DB28A /* SHKViewControllerWrapper.m in Sources */,
-				04018C1924DC44A9001DB28A /* SHKRequest.m in Sources */,
 				84A836C61455D82600915732 /* FEspinning.mm in Sources */,
-				04018C1524DC44A9001DB28A /* SHKOAuthSharer.m in Sources */,
 				84A836D41457237D00915732 /* InfoViewController.mm in Sources */,
-				04018C1124DC44A9001DB28A /* SHKActionSheet.m in Sources */,
 				8492E13C1457846B004194FC /* FEtemplate.mm in Sources */,
 				8463F9B01458B01800ABC5DE /* TSLibraryImport.m in Sources */,
-				04018C1E24DC44A9001DB28A /* SHKCustomShareMenu.m in Sources */,
 				8463F9C91458B80400ABC5DE /* MusicViewController.mm in Sources */,
 				84E5A648145A38F20044F8E1 /* FEupwards.mm in Sources */,
-				04018C1B24DC44A9001DB28A /* SHKCustomFormFieldCell.m in Sources */,
-				04018C0C24DC44A9001DB28A /* SHKShareMenu.m in Sources */,
-				04018C0B24DC44A9001DB28A /* SHKOAuthView.m in Sources */,
 				84E5A64F145B800F0044F8E1 /* FEline.mm in Sources */,
 				844103BE145F0F42005E715A /* VisualizerTableViewController.mm in Sources */,
-				04018C1C24DC44A9001DB28A /* SHKCustomShareMenuCell.m in Sources */,
 				84D201FD1460BE10006B2155 /* FEquad.mm in Sources */,
 				84D2020914630DC7006B2155 /* ShareViewController.mm in Sources */,
 				8403D6351472EA1600928481 /* NSObject+SBJson.m in Sources */,
@@ -1914,26 +1731,18 @@
 				8403D6391472EA1600928481 /* SBJsonStreamParserAdapter.m in Sources */,
 				8403D63A1472EA1600928481 /* SBJsonStreamParserState.m in Sources */,
 				8403D63B1472EA1600928481 /* SBJsonStreamWriter.m in Sources */,
-				04018C1024DC44A9001DB28A /* SHKFormFieldSettings.m in Sources */,
 				8403D63C1472EA1600928481 /* SBJsonStreamWriterAccumulator.m in Sources */,
 				8403D63D1472EA1600928481 /* SBJsonStreamWriterState.m in Sources */,
 				8403D63E1472EA1600928481 /* SBJsonTokeniser.m in Sources */,
 				8403D63F1472EA1600928481 /* SBJsonUTF8Stream.m in Sources */,
-				04018C0D24DC44A9001DB28A /* SHKFormFieldCell.m in Sources */,
-				04018C1D24DC44A9001DB28A /* SHKCustomFormController.m in Sources */,
 				8403D6401472EA1600928481 /* SBJsonWriter.m in Sources */,
 				3BC0B82C1477414100168681 /* RotatingColorButton.m in Sources */,
 				84D3B406147C3EC000A3BC14 /* ColorWalk.mm in Sources */,
 				848E8E971480396400335F8C /* FEspine.mm in Sources */,
 				848E8E9A1480468200335F8C /* FEpushPull.mm in Sources */,
-				04018C1624DC44A9001DB28A /* SHKSharer.m in Sources */,
-				04018C1424DC44A9001DB28A /* SHK.m in Sources */,
-				04018C1F24DC44A9001DB28A /* Reachability.m in Sources */,
-				04018C0E24DC44A9001DB28A /* SHKFormController.m in Sources */,
 				8480A24314855DAA00E53244 /* RotationController.mm in Sources */,
 				8498042A1485CA9900F9B172 /* HelpViewController.m in Sources */,
 				84F15C2C14CE25A600428476 /* FEperlin.mm in Sources */,
-				04018C0F24DC44A9001DB28A /* SHKActivityIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
