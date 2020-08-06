@@ -336,7 +336,6 @@
 		84E958081421679C00F1D48B /* GraviluxViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84E958071421679C00F1D48B /* GraviluxViewController.mm */; };
 		84F15C2914CE1FD700428476 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F15C2814CE1FD700428476 /* libxml2.dylib */; };
 		84F15C2C14CE25A600428476 /* FEperlin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84F15C2B14CE25A600428476 /* FEperlin.mm */; };
-		84F15C3B14CF808C00428476 /* libFlurryAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 84F15C3814CF808000428476 /* libFlurryAnalytics.a */; };
 		84FB7D68143E569A007A23C6 /* ColorPickerView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84FB7D67143E569A007A23C6 /* ColorPickerView.mm */; };
 /* End PBXBuildFile section */
 
@@ -749,8 +748,6 @@
 		84F15C2814CE1FD700428476 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		84F15C2A14CE25A600428476 /* FEperlin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FEperlin.h; sourceTree = "<group>"; };
 		84F15C2B14CE25A600428476 /* FEperlin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FEperlin.mm; sourceTree = "<group>"; };
-		84F15C3814CF808000428476 /* libFlurryAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryAnalytics.a; path = "../../frameworks/FlurryAnalytics 3.0.7/libFlurryAnalytics.a"; sourceTree = "<group>"; };
-		84F15C3D14CF811F00428476 /* FlurryAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlurryAnalytics.h; path = "../../frameworks/FlurryAnalytics 3.0.7/FlurryAnalytics.h"; sourceTree = "<group>"; };
 		84FB7D66143E569A007A23C6 /* ColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorPickerView.h; sourceTree = "<group>"; };
 		84FB7D67143E569A007A23C6 /* ColorPickerView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColorPickerView.mm; sourceTree = "<group>"; };
 		8D7F48F60924FF2A0C2EBBD1 /* Pods-Gravilux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Gravilux.debug.xcconfig"; path = "Target Support Files/Pods-Gravilux/Pods-Gravilux.debug.xcconfig"; sourceTree = "<group>"; };
@@ -767,7 +764,6 @@
 				843E74E0148419B300850238 /* libSnibbe.a in Frameworks */,
 				84F15C2914CE1FD700428476 /* libxml2.dylib in Frameworks */,
 				8463F9F11458D16D00ABC5DE /* libfmodexL_iphoneos.a in Frameworks */,
-				84F15C3B14CF808C00428476 /* libFlurryAnalytics.a in Frameworks */,
 				8492E12414575A6A004194FC /* StoreKit.framework in Frameworks */,
 				84D06E4114226F8D00E29596 /* QuartzCore.framework in Frameworks */,
 				84AC8FC4141AD344003A621D /* MessageUI.framework in Frameworks */,
@@ -1024,7 +1020,6 @@
 			isa = PBXGroup;
 			children = (
 				84D06E54142288FE00E29596 /* ofxMSAShape3D.h */,
-				84F15C3D14CF811F00428476 /* FlurryAnalytics.h */,
 				8403D61B1472EA1600928481 /* SBJson */,
 				04018BD924DC44A9001DB28A /* ShareKit */,
 				8463F9E11458CA9A00ABC5DE /* fmod */,
@@ -1498,7 +1493,6 @@
 			children = (
 				843E74DF148419B300850238 /* libSnibbe.a */,
 				8463F9F01458D16D00ABC5DE /* libfmodexL_iphoneos.a */,
-				84F15C3814CF808000428476 /* libFlurryAnalytics.a */,
 				84F15C2814CE1FD700428476 /* libxml2.dylib */,
 			);
 			name = Libraries;

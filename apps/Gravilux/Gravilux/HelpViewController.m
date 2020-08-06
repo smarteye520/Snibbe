@@ -7,7 +7,7 @@
 //
 
 #import "HelpViewController.h"
-#import "FlurryAnalytics.h"
+//#import "FlurryAnalytics.h"
 
 @implementation HelpViewController
 @synthesize scrollView;
@@ -60,7 +60,7 @@
 }
 
 - (IBAction)dismiss:(id)sender {
-	[FlurryAnalytics endTimedEvent:@"Help" withParameters:nil];
+//	[FlurryAnalytics endTimedEvent:@"Help" withParameters:nil];
 	[UIView animateWithDuration:.3f animations:^{
 		self.view.alpha = 0;
 	} completion:^(BOOL finished) {

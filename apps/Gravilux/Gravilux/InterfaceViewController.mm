@@ -8,7 +8,7 @@
 
 #import "InterfaceViewController.h"
 #include <stdlib.h>
-#import "FlurryAnalytics.h"
+//#import "FlurryAnalytics.h"
 
 #define TRANSITION_LENGTH_S .3f
 @interface InterfaceViewController (Private)
@@ -375,7 +375,7 @@
 #pragma mark Top-level UI Actions
 - (IBAction)toggleInterface:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Toggle Menu"];
+//	[FlurryAnalytics logEvent:@"Toggle Menu"];
 	[UIView animateWithDuration:TRANSITION_LENGTH_S animations:^{
 		if (hidden) {
 			[self showInterface];
@@ -399,7 +399,7 @@
 
 - (IBAction)toggleAntigravity:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Toggle Antigravity"];
+//	[FlurryAnalytics logEvent:@"Toggle Antigravity"];
 	gGravilux->params()->setAntigravity(!(gGravilux->params()->antigravity()));
 	
 	[self syncControls];
@@ -414,13 +414,13 @@
 
 - (IBAction)resetGrid:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Reset Grid"];
+//	[FlurryAnalytics logEvent:@"Reset Grid"];
 	gGravilux->resetGrains();
 }
 
 - (IBAction)resetAll:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Reset All"];
+//	[FlurryAnalytics logEvent:@"Reset All"];
 	gGravilux->resetGrains();
 	gGravilux->params()->setDefaults(true);
 	
@@ -442,27 +442,27 @@
 	if ([sender isEqual:loadSaveButton]) {
 		target = loadSaveView;
 		loadSaveButton.selected = YES;
-		[FlurryAnalytics logEvent:@"Opened Load/Save Panel"];
+//		[FlurryAnalytics logEvent:@"Opened Load/Save Panel"];
 	} else if ([sender isEqual:colorsButton]) {
 		target = colorView;
 		colorsButton.selected = YES;
-		[FlurryAnalytics logEvent:@"Opened Color Panel"];
+//		[FlurryAnalytics logEvent:@"Opened Color Panel"];
 	} else if ([sender isEqual:settingsButton]) {
 		target = settingsView;
 		settingsButton.selected = YES;
-		[FlurryAnalytics logEvent:@"Opened Settings Panel"];
+//		[FlurryAnalytics logEvent:@"Opened Settings Panel"];
 	} else if ([sender isEqual:musicButton]) {
 		target = musicVC.view;
 		musicButton.selected = YES;
-		[FlurryAnalytics logEvent:@"Opened Music Panel"];
+//		[FlurryAnalytics logEvent:@"Opened Music Panel"];
 	} else if ([sender isEqual:textButton]) {
 		target = typeView;
 		textButton.selected = YES;
-		[FlurryAnalytics logEvent:@"Opened Type Panel"];
+//		[FlurryAnalytics logEvent:@"Opened Type Panel"];
 	} else if ([sender isEqual:shareButton]) {
 		target = shareVC.view;
 		shareButton.selected = YES;
-		[FlurryAnalytics logEvent:@"Opened Share Panel"];
+//		[FlurryAnalytics logEvent:@"Opened Share Panel"];
 	}
 	
 	if (target && ![current isEqual:target]) {
@@ -513,7 +513,7 @@
 
 - (IBAction)info:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Info" timed:YES];
+//	[FlurryAnalytics logEvent:@"Info" timed:YES];
 	
 	infoVC.view.alpha = 0;
 	[self.view addSubview:infoVC.view];
@@ -530,7 +530,7 @@
 
 - (IBAction)help:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Help" timed:YES];
+//	[FlurryAnalytics logEvent:@"Help" timed:YES];
 	
 	helpVC.view.alpha = 0;
 	[self.view addSubview:helpVC.view];
@@ -566,18 +566,18 @@
 
 - (IBAction)finishUpdatingSetting:(id)sender {
 	if ([sender isEqual:sizeSlider]) {
-		[FlurryAnalytics logEvent:@"Change Grain Size"];
+//		[FlurryAnalytics logEvent:@"Change Grain Size"];
 	} else if ([sender isEqual:densitySlider]) {
-		[FlurryAnalytics logEvent:@"Change Grain Count"];
+//		[FlurryAnalytics logEvent:@"Change Grain Count"];
 	} else if ([sender isEqual:gravitySlider] ) {
-		[FlurryAnalytics logEvent:@"Change Gravity"];
+//		[FlurryAnalytics logEvent:@"Change Gravity"];
 	}
 }
 
 #pragma mark Color UI Actions
 - (IBAction)toggleColor:(UIButton *)sender
 {
-	[FlurryAnalytics logEvent:@"Toggle Color"];
+//	[FlurryAnalytics logEvent:@"Toggle Color"];
 	
 	Parameters * p = gGravilux->params();
 	BOOL isHeatEnabled = p->heatColor();
@@ -595,7 +595,7 @@
 	} else if ([sender isEqual:colorCircle3]) {
 		selected = 3;
 	}
-	[FlurryAnalytics logEvent:@"Switch Color Swatch" withParameters:[NSDictionary dictionaryWithObject:[NSNumber numberWithInt:selected] forKey:@"Swatch"]];
+//	[FlurryAnalytics logEvent:@"Switch Color Swatch" withParameters:[NSDictionary dictionaryWithObject:[NSNumber numberWithInt:selected] forKey:@"Swatch"]];
 	
 	colorIndicator1.hidden = (selected != 1);
 	colorIndicator2.hidden = (selected != 2);
@@ -607,7 +607,7 @@
 
 - (IBAction)randomColor:(UIButton *)sender
 {
-	[FlurryAnalytics logEvent:@"Random Colors"];
+//	[FlurryAnalytics logEvent:@"Random Colors"];
 	
 	Color randomColors[3];
 	
@@ -626,7 +626,7 @@
 
 - (IBAction)greyColor:(UIButton *)sender
 {
-	[FlurryAnalytics logEvent:@"Grey Colors"];
+//	[FlurryAnalytics logEvent:@"Grey Colors"];
 	Color greyColors[3];
 	
 	greyColors[0].r = greyColors[0].g = greyColors[0].b = 0;
@@ -643,7 +643,7 @@
 #pragma mark Load/View UI Actions
 - (IBAction)load:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Load"];
+//	[FlurryAnalytics logEvent:@"Load"];
 	Parameters * p = gGravilux->params();
 	if([sender isEqual:load1]) {
 		p->loadPreset(1, false);
@@ -662,7 +662,7 @@
 
 - (IBAction)save:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Save"];
+//	[FlurryAnalytics logEvent:@"Save"];
 	Parameters * p = gGravilux->params();
 	if([sender isEqual:save1]) {
 		p->savePreset(1);

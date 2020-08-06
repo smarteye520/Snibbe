@@ -7,10 +7,10 @@
 //
 
 #import "GraviluxAppDelegate.h"
-#import "FlurryAnalytics.h"
+//#import "FlurryAnalytics.h"
 
 void uncaughtExceptionHandler(NSException *exception) {
-    [FlurryAnalytics logError:@"Uncaught" message:@"Crash!" exception:exception];
+//    [FlurryAnalytics logError:@"Uncaught" message:@"Crash!" exception:exception];
 }
 
 @implementation GraviluxAppDelegate
@@ -29,7 +29,7 @@ void uncaughtExceptionHandler(NSException *exception) {
 - (void)applicationDidFinishLaunching:(UIApplication *)application
 {
 	NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
-	[FlurryAnalytics startSession:@"2V63T54H685WFPTNLZJ7"];
+//	[FlurryAnalytics startSession:@"2V63T54H685WFPTNLZJ7"];
 	
 	[application setDelegate:self];
 	

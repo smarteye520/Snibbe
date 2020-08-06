@@ -7,7 +7,7 @@
 //
 
 #import "ShareViewController.h"
-#import "FlurryAnalytics.h"
+//#import "FlurryAnalytics.h"
 #import "SHKFacebook.h"
 #import "SHKMail.h"
 #import "SHKPhotoAlbum.h"
@@ -231,7 +231,7 @@ static NSString* kEmailBody = @"Check out this work of art I made on my %@ with 
 
 - (void)sharerFinishedSending:(SHKSharer *)sharer
 {
-	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Finished", @"Status", nil]];
+//	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Finished", @"Status", nil]];
 #ifdef DEBUG
 	NSLog(@"Sharer %@ finished", [sharer sharerTitle]);
 #endif
@@ -239,7 +239,7 @@ static NSString* kEmailBody = @"Check out this work of art I made on my %@ with 
 
 - (void)sharer:(SHKSharer *)sharer failedWithError:(NSError *)error shouldRelogin:(BOOL)shouldRelogin
 {
-	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Failed", @"Status", [error description], @"Error", [NSNumber numberWithBool:shouldRelogin], @"Should Relogin", nil]];
+//	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Failed", @"Status", [error description], @"Error", [NSNumber numberWithBool:shouldRelogin], @"Should Relogin", nil]];
 #ifdef DEBUG
 	NSLog(@"Sharer %@ failed", [sharer sharerTitle]);
 #endif
@@ -247,7 +247,7 @@ static NSString* kEmailBody = @"Check out this work of art I made on my %@ with 
 
 - (void)sharerCancelledSending:(SHKSharer *)sharer
 {
-	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Canceled", @"Status", nil]];
+//	[FlurryAnalytics endTimedEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[sharer sharerTitle], @"Service", @"Canceled", @"Status", nil]];
 #ifdef DEBUG
 	NSLog(@"Sharer %@ canceled", [sharer sharerTitle]);
 #endif
@@ -269,25 +269,25 @@ static NSString* kEmailBody = @"Check out this work of art I made on my %@ with 
 	
 	if ([emailButton isEqual:sender]) {
 		if ([SHKMail canShareImage]) {
-			[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKMail sharerTitle], @"Service", nil] timed:YES];
+//			[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKMail sharerTitle], @"Service", nil] timed:YES];
 			sharer = [SHKMail shareItem:item];
 		}
 		else {
 			NSLog(@"Cannot share images with email");
 		}
 	} else if ([photosButton isEqual:sender]) {
-		[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKPhotoAlbum sharerTitle], @"Service", nil] timed:NO];
+//		[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKPhotoAlbum sharerTitle], @"Service", nil] timed:NO];
 		sharer = [SHKPhotoAlbum shareItem:item];
 	} else if ([facebookButton isEqual:sender]) {
 		if ([SHKFacebook canShareImage]) {
-			[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKFacebook sharerTitle], @"Service", nil] timed:YES];
+//			[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKFacebook sharerTitle], @"Service", nil] timed:YES];
 			sharer = [SHKFacebook shareItem:item];
 		}
 		else {
 			NSLog(@"Cannot share images to Facebook");
 		}
 	} else if ([twitterButton isEqual:sender]) {
-		[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKTwitter sharerTitle], @"Service", nil] timed:YES];
+//		[FlurryAnalytics logEvent:@"Share" withParameters:[NSDictionary dictionaryWithObjectsAndKeys:[SHKTwitter sharerTitle], @"Service", nil] timed:YES];
 		sharer = [SHKTwitter shareItem:item];
 	}
 	

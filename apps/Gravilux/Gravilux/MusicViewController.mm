@@ -10,7 +10,7 @@
 #import "RotationController.h"
 #import <AudioToolbox/AudioToolbox.h>
 #import "TSLibraryImport.h"
-#import "FlurryAnalytics.h"
+//#import "FlurryAnalytics.h"
 
 #define TRANSITION_LENGTH_S .5
 
@@ -157,7 +157,7 @@
 #pragma mark - IB Actions
 - (IBAction)pickSong:(id)sender
 {
-	[FlurryAnalytics logEvent:@"Visualizer Pick Song"];
+//	[FlurryAnalytics logEvent:@"Visualizer Pick Song"];
 	//	gGravilux->visualizer()->stop();
 	
 	// Bring up the media picker
@@ -200,7 +200,7 @@
 {
 	gGravilux->visualizer()->repeat(!gGravilux->visualizer()->repeat());
 	
-	[FlurryAnalytics logEvent:@"Visualizer Toggle Repeat" withParameters:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:gGravilux->visualizer()->repeat()] forKey:@"Enabled"]];
+//	[FlurryAnalytics logEvent:@"Visualizer Toggle Repeat" withParameters:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:gGravilux->visualizer()->repeat()] forKey:@"Enabled"]];
 }
 
 - (IBAction)toggleColorDrift:(id)sender
@@ -209,14 +209,14 @@
 	// This method in Visualizer takes care of setting the global state in Parameters
 	gGravilux->visualizer()->colorWalk(colorDriftControl.selected);
 	
-	[FlurryAnalytics logEvent:@"Visualizer Toggle Color Drift" withParameters:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:gGravilux->visualizer()->colorWalk()] forKey:@"Enabled"]];
+//	[FlurryAnalytics logEvent:@"Visualizer Toggle Color Drift" withParameters:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:gGravilux->visualizer()->colorWalk()] forKey:@"Enabled"]];
 }
 
 - (IBAction)toggleAuto:(id)sender
 {
 	gGravilux->visualizer()->automatic(!gGravilux->visualizer()->automatic());
 	
-	[FlurryAnalytics logEvent:@"Visualizer Toggle Automation" withParameters:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:gGravilux->visualizer()->automatic()] forKey:@"Enabled"]];
+//	[FlurryAnalytics logEvent:@"Visualizer Toggle Automation" withParameters:[NSDictionary dictionaryWithObject:[NSNumber numberWithBool:gGravilux->visualizer()->automatic()] forKey:@"Enabled"]];
 }
 
 #pragma mark - Private Methods
