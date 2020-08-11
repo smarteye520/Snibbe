@@ -62,7 +62,7 @@
     projection = @"full";
   }
 
-  NSString *templateStr = @"%@%@/%@/%@";
+  NSString *const templateStr = @"%@%@/%@/%@";
   NSString *encodedUser = [GDataUtilities stringByURLEncodingForURI:userID];
   NSString *urlStr = [NSString stringWithFormat:templateStr,
                       rootURLStr, encodedUser, visibility, projection];
@@ -102,6 +102,18 @@
 
   return [NSURL URLWithString:urlString];
 }
+
++ (NSURL *)changesFeedURLForUserID:(NSString *)userID {
+  NSString *encodedUser = [GDataUtilities stringByURLEncodingForURI:userID];
+  NSString *const kTemplate = @"%@%@/private/changes";
+
+  NSString *root = [self serviceRootURLString];
+  NSString *urlString = [NSString stringWithFormat:kTemplate,
+                         root, encodedUser];
+
+  return [NSURL URLWithString:urlString];
+}
+
 
 #pragma mark -
 

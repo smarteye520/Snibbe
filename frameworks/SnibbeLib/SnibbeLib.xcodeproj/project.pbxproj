@@ -716,8 +716,6 @@
 		6FF8BEA21551D6D7003136A8 /* GDataNormalPlayTime.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8BBEC1551D6D6003136A8 /* GDataNormalPlayTime.m */; };
 		6FF8BEA31551D6D7003136A8 /* GDataAuthenticationFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF8BBEE1551D6D6003136A8 /* GDataAuthenticationFetcher.h */; };
 		6FF8BEA41551D6D7003136A8 /* GDataAuthenticationFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8BBEF1551D6D6003136A8 /* GDataAuthenticationFetcher.m */; };
-		6FF8BEA51551D6D7003136A8 /* GDataProgressMonitorInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF8BBF01551D6D6003136A8 /* GDataProgressMonitorInputStream.h */; };
-		6FF8BEA61551D6D7003136A8 /* GDataProgressMonitorInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8BBF11551D6D6003136A8 /* GDataProgressMonitorInputStream.m */; };
 		6FF8BEA71551D6D7003136A8 /* GDataServerError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FF8BBF21551D6D6003136A8 /* GDataServerError.h */; };
 		6FF8BEA81551D6D7003136A8 /* GDataServerError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8BBF31551D6D6003136A8 /* GDataServerError.m */; };
 		6FF8BEB71551D6D7003136A8 /* GenerateTargetNamespaceMacros.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF8BC3D1551D6D6003136A8 /* GenerateTargetNamespaceMacros.m */; };
@@ -1513,8 +1511,6 @@
 		6FF8BBEC1551D6D6003136A8 /* GDataNormalPlayTime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataNormalPlayTime.m; sourceTree = "<group>"; };
 		6FF8BBEE1551D6D6003136A8 /* GDataAuthenticationFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataAuthenticationFetcher.h; sourceTree = "<group>"; };
 		6FF8BBEF1551D6D6003136A8 /* GDataAuthenticationFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataAuthenticationFetcher.m; sourceTree = "<group>"; };
-		6FF8BBF01551D6D6003136A8 /* GDataProgressMonitorInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataProgressMonitorInputStream.h; sourceTree = "<group>"; };
-		6FF8BBF11551D6D6003136A8 /* GDataProgressMonitorInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataProgressMonitorInputStream.m; sourceTree = "<group>"; };
 		6FF8BBF21551D6D6003136A8 /* GDataServerError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataServerError.h; sourceTree = "<group>"; };
 		6FF8BBF31551D6D6003136A8 /* GDataServerError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataServerError.m; sourceTree = "<group>"; };
 		6FF8BBF41551D6D6003136A8 /* ReleaseNotes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReleaseNotes.txt; sourceTree = "<group>"; };
@@ -2703,8 +2699,6 @@
 			children = (
 				6FF8BBEE1551D6D6003136A8 /* GDataAuthenticationFetcher.h */,
 				6FF8BBEF1551D6D6003136A8 /* GDataAuthenticationFetcher.m */,
-				6FF8BBF01551D6D6003136A8 /* GDataProgressMonitorInputStream.h */,
-				6FF8BBF11551D6D6003136A8 /* GDataProgressMonitorInputStream.m */,
 				6FF8BBF21551D6D6003136A8 /* GDataServerError.h */,
 				6FF8BBF31551D6D6003136A8 /* GDataServerError.m */,
 			);
@@ -3211,7 +3205,6 @@
 				6FF8BE9F1551D6D7003136A8 /* GDataMediaThumbnail.h in Headers */,
 				6FF8BEA11551D6D7003136A8 /* GDataNormalPlayTime.h in Headers */,
 				6FF8BEA31551D6D7003136A8 /* GDataAuthenticationFetcher.h in Headers */,
-				6FF8BEA51551D6D7003136A8 /* GDataProgressMonitorInputStream.h in Headers */,
 				6FF8BEA71551D6D7003136A8 /* GDataServerError.h in Headers */,
 				6FF8BEB81551D6D7003136A8 /* GDataXMLNode.h in Headers */,
 				6FF8BECD1551D73E003136A8 /* SnibbeLibGoogle-Prefix.pch in Headers */,
@@ -3688,7 +3681,6 @@
 				6FF8BEA01551D6D7003136A8 /* GDataMediaThumbnail.m in Sources */,
 				6FF8BEA21551D6D7003136A8 /* GDataNormalPlayTime.m in Sources */,
 				6FF8BEA41551D6D7003136A8 /* GDataAuthenticationFetcher.m in Sources */,
-				6FF8BEA61551D6D7003136A8 /* GDataProgressMonitorInputStream.m in Sources */,
 				6FF8BEA81551D6D7003136A8 /* GDataServerError.m in Sources */,
 				6FF8BEB71551D6D7003136A8 /* GenerateTargetNamespaceMacros.m in Sources */,
 				6FF8BEB91551D6D7003136A8 /* GDataXMLNode.m in Sources */,
@@ -3880,9 +3872,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/SnibbeAudioLib.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"../fmod iOS 4.42.06/api/lib/\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"../fmod iOS 4.42.06/api/lib/\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnibbeLibAudio/SnibbeAudioLib-Prefix.pch";
@@ -3892,9 +3882,7 @@
 				);
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"../fmod iOS 4.42.06/api/inc/\"",
-				);
+				HEADER_SEARCH_PATHS = "\"../fmod iOS 4.42.06/api/inc/\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3908,15 +3896,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/SnibbeAudioLib.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"../fmod iOS 4.42.06/api/lib/\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"../fmod iOS 4.42.06/api/lib/\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnibbeLibAudio/SnibbeAudioLib-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"../fmod iOS 4.42.06/api/inc/\"",
-				);
+				HEADER_SEARCH_PATHS = "\"../fmod iOS 4.42.06/api/inc/\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3931,15 +3915,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/SnibbeAudioLib.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"../fmod iOS 4.42.06/api/lib/\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"../fmod iOS 4.42.06/api/lib/\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnibbeLibAudio/SnibbeAudioLib-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"../fmod iOS 4.42.06/api/inc/\"",
-				);
+				HEADER_SEARCH_PATHS = "\"../fmod iOS 4.42.06/api/inc/\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3954,15 +3934,11 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/SnibbeAudioLib.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"../fmod iOS 4.42.06/api/lib/\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"../fmod iOS 4.42.06/api/lib/\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnibbeLibAudio/SnibbeAudioLib-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				HEADER_SEARCH_PATHS = (
-					"\"../fmod iOS 4.42.06/api/inc/\"",
-				);
+				HEADER_SEARCH_PATHS = "\"../fmod iOS 4.42.06/api/inc/\"";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3977,9 +3953,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				DSTROOT = /tmp/SnibbeAudioLib.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"../fmod iOS 4.40.05/lib/\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"../fmod iOS 4.40.05/lib/\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnibbeLibGoogle/SnibbeLibGoogle-Prefix.pch";
@@ -4006,9 +3980,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/SnibbeAudioLib.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"../fmod iOS 4.40.05/lib/\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"../fmod iOS 4.40.05/lib/\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnibbeLibGoogle/SnibbeLibGoogle-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -4030,9 +4002,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/SnibbeAudioLib.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"../fmod iOS 4.40.05/lib/\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"../fmod iOS 4.40.05/lib/\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnibbeLibGoogle/SnibbeLibGoogle-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
@@ -4054,9 +4024,7 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				DSTROOT = /tmp/SnibbeAudioLib.dst;
-				FRAMEWORK_SEARCH_PATHS = (
-					"\"../fmod iOS 4.40.05/lib/\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "\"../fmod iOS 4.40.05/lib/\"";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SnibbeLibGoogle/SnibbeLibGoogle-Prefix.pch";
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;

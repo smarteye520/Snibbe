@@ -13,7 +13,7 @@
 * limitations under the License.
 */
 
-// 
+//
 // GDataDocs.h
 //
 
@@ -27,12 +27,16 @@
 #import "GDataEntrySpreadsheetDoc.h"
 #import "GDataEntryPresentationDoc.h"
 #import "GDataEntryPDFDoc.h"
+#import "GDataEntrySiteDoc.h"
+#import "GDataEntryTableDoc.h"
 #import "GDataEntryDrawingDoc.h"
 #import "GDataEntryFileDoc.h"
 #import "GDataEntryFolderDoc.h"
 #import "GDataEntryDocRevision.h"
 #import "GDataEntryDocListMetadata.h"
+#import "GDataEntryDocChange.h"
 #import "GDataFeedDocList.h"
 #import "GDataFeedDocRevision.h"
+#import "GDataFeedDocChange.h"
 #import "GDataServiceGoogleDocs.h"
 #import "GDataQueryDocs.h"

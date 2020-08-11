@@ -1921,13 +1921,14 @@
 			baseConfigurationReference = 8D7F48F60924FF2A0C2EBBD1 /* Pods-Gravilux.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_ENTITLEMENTS = "";
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../frameworks/SnibbeLib\"/**",
-					"\"/Applications/Xcode9.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++\"/**",
+					"\"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/\"/**",
 				);
 				INFOPLIST_FILE = "Gravilux/Gravilux-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -1955,13 +1956,14 @@
 			baseConfigurationReference = E35339704D59831085ACF2E9 /* Pods-Gravilux.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_ENTITLEMENTS = "";
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../frameworks/SnibbeLib\"/**",
-					"\"/Applications/Xcode9.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++\"/**",
+					"\"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/\"/**",
 				);
 				INFOPLIST_FILE = "Gravilux/Gravilux-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2010,13 +2012,14 @@
 			baseConfigurationReference = 831DC2EED6D61D229C895EC3 /* Pods-Gravilux.app store.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../frameworks/SnibbeLib\"/**",
-					"\"/Applications/Xcode9.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++\"/**",
+					"\"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/\"/**",
 				);
 				INFOPLIST_FILE = "Gravilux/Gravilux-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -2064,13 +2067,14 @@
 			baseConfigurationReference = BFDFBC00FFC1EBFCB0B66F53 /* Pods-Gravilux.ad hoc.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_CXX_LIBRARY = "libc++";
 				CODE_SIGN_ENTITLEMENTS = Entitlements.plist;
 				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Gravilux/Gravilux-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../frameworks/SnibbeLib\"/**",
-					"\"/Applications/Xcode9.4.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/c++\"/**",
+					"\"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/\"/**",
 				);
 				INFOPLIST_FILE = "Gravilux/Gravilux-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
